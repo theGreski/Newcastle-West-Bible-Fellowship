@@ -1,0 +1,340 @@
+body {
+	scroll-snap-type: y proximity;
+}
+body > div, body > footer {
+	scroll-snap-align: start;
+}
+
+/*
+   Styling navbar
+*/
+.brand-logo {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+.brand-logo img {
+    width: auto;
+    max-width: 40vw;    
+}
+
+@media screen and (orientation:landscape) and (min-width: 992px) { /* screen size above 1200px */
+    .brand-logo img {
+        -webkit-filter: drop-shadow(0px 0px 5px rgba(250,250,250,0.25));
+        filter: drop-shadow(0px 0px 5px rgba(250,250,250,0.25));
+    }
+}
+.navbar {
+    text-shadow: none;
+    z-index: 2;
+}
+.navbar-light .navbar-toggler {
+    background-color: rgba(255,255,255,0.9);
+}
+.navbar-toggler-label {
+    vertical-align: middle;
+    font-size: 90%;
+}
+.collapsing, .collapse.show {
+    background-color: rgba(255,255,255,0.93);
+}
+@media all and (min-width: 1101px) { /* screen size above 1200px */
+    .collapsing, .collapse.show {
+        width: 30%;
+        margin-left: 70%;
+    }
+}
+.navbar-nav {
+    padding: 10px 15px;
+}
+.nav-item {
+    text-align: center;
+}
+
+
+
+
+
+/*
+   Styling backgrounds in selected header sections
+*/
+.fullsize-bg-img {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+@media screen and (min-width: 1200px) { 
+    .fullsize-bg-img {
+        background-attachment: fixed;
+    }
+}
+@media screen and (orientation:portrait) { 
+    #get-connected, #about {
+        height: 75vh;
+    }
+}
+.fullsize-bg-img > .background, .halfsize-bg-img > .background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    will-change: transform;
+    z-index: -1;
+}
+#welcome > .background {
+    /* Style in html file to speed up loading */
+}
+#get-connected {
+    background-position: center top;
+    background-image: url("getconnected3a.jpg");
+}
+#location {
+    background-image: url('map1.png');
+}
+#about > .background {
+    background-image: url("about3a.jpg");
+}
+#learn-about-jesus {    
+    background-image: url("knowmore1a.jpg");
+}
+#whatitslike > .background {
+    /* Style in html file to speed up loading */
+}
+#whatwebelieve > .background {
+    /* Style in html file to speed up loading */
+}
+#who-is-jesus > .background {
+    /* Style in html file to speed up loading */
+}
+#the-name > .background {
+    background-image: url("ncw1.jpg");
+}
+#christs-humanity {
+    /*background-color: #000;*/
+}
+#who-we-are > .background {
+    /* Style in html file to speed up loading */
+}
+#contact-us > .background {
+    /* Style in html file to speed up loading */
+}
+
+.halfsize-bg-img {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+.halfsize-bg-img > .background {
+    background-color: #eeeeee;
+    /*
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    */
+}
+
+
+
+
+
+/*
+   Styling heading text in selected header sections
+*/
+.fullsize-bg-img > .container, .halfsize-bg-img > .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1, h2 {
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+}
+@media all and (min-width: 1101px) { /* screen size above 1200px */
+    .display-3 { font-size: 7.0rem; /* 1.5x default size */ }
+}
+@media all and (max-width: 1100px) { /* screen size until 1200px */
+    .display-3 { font-size: 6.0rem; /* 1.5x default size */ }
+}
+@media all and (max-width: 785px) { /* screen size until 1000px */
+    .display-3 { font-size: 4.0rem; /* 1.2x default size */ }
+}
+@media all and (max-width: 600px) { /* screen size until 1000px */
+    .display-3 { font-size: 3.5rem; /* 1.2x default size */ }
+}
+#welcome, #get-connected, #about, #learn-about-jesus, #whatitslike, #whatwebelieve, #the-name, #who-we-are, #young-age, #contact-us {
+    color: #FFF;
+    text-shadow: 0px 0px 9px rgba(0,0,0,0.6), 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+
+
+/*
+   Styling selected description sections
+*/
+#new-here, #get-connected+div, #location+div, #about+div, #learn-about-jesus+div, #who-is-jesus+div, #gospel-video, #christs-humanity, #salvation, #who-we-are+div, #young-age + div {
+    padding-bottom: 7em;
+    padding-top: 7em;
+}
+#whatwebelieve + div {
+    padding-top: 1em;
+    padding-bottom: 7em;
+}
+#who-we-are + div img {
+    width: 124px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.2), 1px 1px 7px rgba(0,0,0,0.3);
+}
+
+.btn-outline-primary {
+    padding: 1.5em 2.3em;
+    color: #000000;
+    border-color: #000000;
+    transition: 0.2s all ease-out;
+}
+.btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+}
+a[href^="tel"] {
+    pointer-events: auto;
+}
+@media screen and (min-width: 768px) { /* md */
+    a[href^="tel"] { /* Disable pointer on large screens */
+        pointer-events: none;
+    }
+}
+.text-2-custom {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+@media all and (min-width: 576px) { /* screen size above 1200px */
+    .text-2-custom { font-size: 2.0rem; /* 1.5x default size */ }
+}
+@media all and (min-width: 768px) { /* screen size above 1200px */
+    .text-2-custom { font-size: 3.0rem; /* 1.5x default size */ }
+}
+@media all and (min-width: 992px) { /* screen size above 1200px */
+    .text-2-custom { font-size: 3.5rem; /* 1.5x default size */ }
+}
+.text-3-custom {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+@media all and (min-width: 576px) { /* screen size above 1200px */
+    .text-3-custom { font-size: 1.5rem; /* 1.5x default size */ }
+}
+@media all and (min-width: 768px) { /* screen size above 1200px */
+    .text-3-custom { font-size: 1.5rem; /* 1.5x default size */ }
+}
+@media all and (min-width: 992px) { /* screen size above 1200px */
+    .text-3-custom { font-size: 2.1rem; /* 1.5x default size */ }
+}
+.text-4-custom {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+@media all and (min-width: 576px) { /* screen size above 1200px */
+    .text-4-custom { font-size: 1.4rem; /* 1.5x default size */ }
+}
+@media all and (min-width: 768px) { /* screen size above 1200px */
+    .text-4-custom { font-size: 1.4rem; /* 1.5x default size */ }
+}
+@media all and (min-width: 992px) { /* screen size above 1200px */
+    .text-4-custom { font-size: 1.4rem; /* 1.5x default size */ }
+}
+
+
+/*
+   Styling footer sections
+*/
+footer {
+    position: relative;
+    background-color: #fdfdfd;
+    background-image: linear-gradient( #ededed, #fdfdfd 20%);
+    padding-top: 7em;
+    padding-bottom: 5em;
+}
+footer .totop {
+    position: absolute;
+    top: -23px;
+    left: calc(50% - 25px);
+    font-size: 83%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 11px rgba(0,0,0,0.10), 1px 2px 7px rgba(0,0,0,0.17);
+    cursor: pointer;
+}
+.footer-logo {
+    display: block;
+    width: 100%;
+    max-width: 50vw;
+    margin: auto;
+}
+footer dt img {
+    height: 2em;
+    width: 2em;
+}
+footer .eggizo-logo {
+    background-color: #fff;
+    border: #e4e4e4 thin solid;
+    border-radius: 25%;
+    padding: 4%;
+}
+footer .facebook-logo {
+    background-color: #3b5998;
+    border: #3b5998 thin solid;
+    border-radius: 10%;
+    padding: 10% 0% 0px 10%;
+}
+
+/* YOUTUBE DISPLAY */
+.modal-overlay-wrapper {
+	position: fixed;
+	top:50%; left:50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 0 100vmax rgba(255,255,255,0.7);
+	z-index: 999;
+	cursor: pointer;
+	display: none;
+}
+.modal-overlay-wrapper::after {
+	content: "";
+	position: absolute;
+	top:0; right:0;
+	transform: translate(30%, -30%);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50;' xml:space='preserve'%3E%3Ccircle cx='25' cy='25' r='25' style='fill: %23f02030;'/%3E%3Cpolyline style='fill:none;stroke:%23fFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;' points='16,34 25,25 34,16 '/%3E%3Cpolyline style='fill:none;stroke:%23FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;' points='16,16 25,25 34,34 '/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+.modal-overlay-picture {
+    position: relative;
+    max-width: 80vw;
+    max-height: 80vh;
+	width: auto;
+	height: auto;
+    box-shadow: 2px 2px 22px rgba(0,0,0,0.9), 0px 0px 9px rgba(0,0,0,0.4);
+}
+/* END YOUTUBE DISPLAY */

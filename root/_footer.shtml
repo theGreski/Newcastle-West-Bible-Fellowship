@@ -1,0 +1,25 @@
+<footer class="">
+    <div class="totop text-uppercase text-center">to<br>top</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="static/ncwbf.svg" width="350px" height="85px" alt="Newcastle West Bible Fellowship logo" class="footer-logo mb-5"/>
+            </div>
+            <div class="col-sm-8">
+                <dl class="row justify-content-between">
+                    <dt class="col-1"><img src="static/logo-bg.svg" width="2em" height="2em" alt="Eggizo App" class="eggizo-logo"></dt>
+                    <dd class="col-10">Get our mobile <a href="https://app-dot-eggizoapp.appspot.com/" target="_blank">Eggizo App</a>!</dd>
+                </dl>
+                <dl class="row justify-content-between">
+                    <dt class="col-1"><img src="static/facebook-logo.svg" width="2em" height="2em" alt="Facebook logo" class="facebook-logo"></dt>
+                    <dd class="col-10">Find Us on <a href="http://www.facebook.com/ncwbf">Facebook</a></dd>
+                </dl>
+                <dl class="row justify-content-between">
+                    <dt class="col-1"><img src="static/copyright-logo.svg" width="2em" height="2em" alt="copyright logo"></dt>
+                    <dd class="col-10">Copyright <!--#config timefmt="%Y" --> <!--#echo var="DATE_LOCAL" --> | Newcastle West Bible Fellowship. All rights reserved.</dd>
+                </dl>
+            </div>
+        </div>
+        <p class="text-center mt-5"><small>All scripture quotations taken from the New King James Version&reg;. Copyright &copy; 1982 by Thomas Nelson. Used by permission. All rights reserved.</small></p>
+    </div>
+</footer>

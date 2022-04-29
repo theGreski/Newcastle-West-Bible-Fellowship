@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /goodnews4u.net/
+Allow: /
+
+SITEMAP: https://www.ncwbiblefellowship.com/sitemap.xml

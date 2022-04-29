@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>What we believe | Newcastle West Bible Fellowship</title>
+        <meta name="robots" content="index, follow" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/styles.css">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="64x64" href="static/icon_apple_64.png" />
+        <link rel="apple-touch-icon" sizes="181x181" href="static/icon_apple_181.png" />
+        <link rel="icon" type="image/png" sizes="181x181" href="static/icon_181.png" />
+        <link rel="icon" type="image/png" sizes="64x64" href="static/icon_64.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="static/icon_32.png" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <style>
+            #whatwebelieve > .background {
+                background-image: url("static/what-we-believe.jpg");
+            }
+        </style>
+    </head>
+    <body>
+        <div id="whatwebelieve" class="halfsize-bg-img container-fluid" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            <a class="brand-logo" href="./">
+                <img src="static/ncwbf-white.svg" alt="Newcastle West Bible Fellowship logo" />
+            </a>
+            
+            <!--#include file="_menu.html" -->
+            
+            <div class="container">
+                <h1 class="text-uppercase display-3" >what we believe</h1>
+            </div>
+        </div>
+        <div class="container">
+            
+            <p class="text-3-custom text-center mt-4"><strong>What we believe</strong></p>
+            
+            <p><strong>Beliefs</strong> - We reach out to all people, no matter who they are, what they've done or where they've been. Rather than run from culture, we’ve chosen to engage it to connect with people and show them God's timeless truths. We do not belong to any "organisation" or "denomination". We are not a sect or Jehovah's Witnesses. We believe that each church, or assembly, is a fully independent body. There are similar churches in the area, throughout the country and worldwide but each is fully independent, shepherded by a group of elders who are responsible only to God for this activity.</p>
+            <p><strong>The Scriptures</strong> - The Bible is inspired by God and is the final authority on all spiritual matters. "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness" (2 Timothy 3:16). The Scriptures are clear, "making wise the simple" (Psalm 19:7). The Scriptures are sufficient for faith and practice, and "that the man of God may be complete, thoroughly equipped for every good work" (2 Timothy 3:17).</p>
+            <p><strong>Salvation</strong> - We believe salvation involves the redemption of the whole man, and is offered freely to all who receive Jesus Christ as Lord and Savior, who by His death and resurrection obtained eternal redemption for the believer. This salvation was required because, in common with all mankind, we are sinners in the sight of God (Romans chapter 3 verse 23) and can do nothing of ourselves to merit God's favour. However Jesus Christ, the Eternal Son of the Eternal God, became a man, lived a perfect, sinless life and gave His life on the cross of Calvary to pay the penalty for our sin. It is through repentance from our sin and by faith in Jesus Christ that we have salvation and fellowship again with God. "For this is good and acceptable in the sight of God our Saviour, who desires all men to be saved and to come to the knowledge of the truth" (1 Timothy 2:3-4).</p>
+            <p><strong>God</strong> - We believe God is the eternal, uncreated Creator and Sustainer of all things (Genesis 1:1; Colossians 1:16–17). He is the First and the Last, and beside Him there is no god (Isaiah 44:6). This one God eternally existent in three persons, Father, Son & Holy Spirit. The Lord Jesus Christ alone is the Head of the church. He is the only mediator between God and men. (1 Timothy 2:5).</p>
+            <p><strong>Jesus Christ</strong> - We believe Jesus Christ is fully God and fully man, that He came in the flesh and was born of a virgin, and lived a sinless life (John 8:46, 18:38b, 19:4, 21:25). He taught that He is the only means of our salvation, by which man would be reconciled to God (Colossians 2:9, Acts 4:12).</p>
+            <p><strong>Gift</strong> - We believe eternal life is a gift from God and is received by grace through faith apart from any merit (Romans 6:23). No believer is justified by works of the Law (Ephesians 2:8-9).</p>
+            <p><strong>The Lord's Supper</strong> - We believe the Lord's Supper was instituted by Christ on the night He was betrayed (1 Corinthians 11:23). The Lord's Supper consists of bread and wine, which represent His body that was broken for believers and His blood that was shed for believers (1 Corinthians 11:24–25). The Lord's Supper serves as a reminder to both believers and non-believers that Jesus has died, is risen, and is coming again (1 Corinthians 11:26). The Bible instructs us to meet together as believers for the remembering of the Lord and His death, prayers and Bible teaching (Acts 2:42).</p>
+            
+            <p class="text-3-custom text-center mt-5"><strong>Our scripture authority for these beliefs</strong></p>
+            
+            <p><div class="text-4-custom mt-4"><strong>The Bible is inspired by God and is the final authority on all spiritual matters.</strong></div>
+            <strong>2 Timothy chapter 3 verse 16</strong> - "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness"</p>
+
+            <p><div class="text-4-custom mt-4"><strong>The need of salvation from sin.</strong></div>
+            <strong>1 Timothy chapter 2 verses 3 &amp; 4</strong> - "For this is good and acceptable in the sight of God our Saviour, who desires all men to be saved and to come to the knowledge of the truth"</p>
+            
+            <p><div class="text-4-custom mt-4"><strong>The Lord Jesus Christ is both fully man and fully God and is the only means of our salvation.</strong></div>
+            <strong>Colossians chapter 2 verse 9</strong> - "For in Him dwells all the fullness of the Godhead bodily"<br>
+            <strong>Acts chapter 4 verse 12</strong> - "Nor is there salvation in any other, for there is no other name under heaven given among men by which we must be saved"</p>
+            
+            <p><div class="text-4-custom mt-4"><strong>There is one God eternally existent in three persons, Father, Son &amp; Holy Spirit. The Lord Jesus Christ alone is the Head of the church. He is the only mediator between God and men.</strong></div>
+            <strong>1 Timothy chapter 2 verse 5</strong> - "For there is one God and one Mediator between God and men, the Man Christ Jesus"</p>
+
+            <p><div class="text-4-custom mt-4"><strong>Eternal life is a gift from God and is received by grace through faith apart from any merit.</strong></div>
+            <strong>Romans chapter 6 verse 23</strong> - "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord"<br>
+            <strong>Ephesians chapter 2 verses 8 and 9</strong> - "For by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, lest anyone should boast"</p>
+
+            <p><div class="text-4-custom mt-4"><strong>The need to meet together as believers for the remembering of the Lord and His death, prayers and Bible teaching.</strong></div>
+            <strong>Acts chapter 2 verse 42</strong> - "And they continued steadfastly in the apostles’ doctrine and fellowship, in the breaking of bread, and in prayers"</p>
+        </div>
+        
+        <!--#include file="_footer.shtml" -->
+        
+        <!-- _contact.html -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!--<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>-->
+
+        
+        
+        
+
+        <script>
+            
+            var screen;
+            
+            function draw() {
+                requestAnimationFrame(draw);
+                // Drawing code goes here
+                scrollEvent();
+            }
+            draw();
+            function scrollEvent(){
+                var scroll = $(window).scrollTop();
+                
+                if($(window).width())
+                    $("div[data-parallax='true']").each(function(){
+                    //$.each(parallaxElements,function(){
+                        //console.log( $(this).data("parallax") );
+                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
+                        screen = parseInt( $(this).outerHeight() );
+                        var toppos = parseInt( $(this).offset().top - scroll );
+                        //if ( toppos <= screen + 20) {
+                            if (bottompos > -20) {
+                                distance = (screen - bottompos) / $(this).data("speed");
+                                //console.log( $(this).attr("id") );
+                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
+                            }
+                        //}
+                    });
+            }
+            
+            
+            // After DOM load check height of the selector with height:100vh
+            // then set it to that selector
+            // when address bar hides on mobile, it will not resize
+            // recalculate only on orientationchange
+            //
+            function calcVH() {
+                var vH = Math.max(document.getElementById("whatwebelieve").offsetHeight);
+                document.getElementById("whatwebelieve").setAttribute("style", "height:" + vH + "px;");
+            }
+            
+            window.addEventListener('onorientationchange', calcVH, true);
+            
+            /*
+            function validation(){
+                var errors = false;
+                if (!$("#g-recaptcha-response").val()) {
+                    errors = true;
+                }
+                $("#ajax-contact > .form-group").each(function(){
+                    var warn = false;
+                    $(this).find("input, textarea").each(function(){
+                        if ($(this).val().length <= 1){
+                            errors = true;
+                            warn = true;
+                            $(this).addClass("form-control-warning");
+                        } else {
+                            warn = false;
+                            $(this).removeClass("form-control-warning");
+                        }
+                    });
+                    if (warn == true) {
+                        $(this).addClass("has-warning");
+                    } else {
+                        $(this).removeClass("has-warning");
+                    }
+                });
+                return !errors;
+            }
+            */
+            
+            $(document).ready(function(){
+                
+                calcVH();
+                
+                $("div.totop").on("click", function(){
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    return false;
+                });
+                /*
+                // Sending contact form using ajax technology
+                // Get the form and messages container
+                //
+                var form = $("#ajax-contact"),
+                    formMessages = $("#form-messages");
+                
+                // Set up an event listener for the contact form.
+                $(form).submit(function(event) {
+                    // Stop the browser from submitting the form.
+                    event.preventDefault();
+                    
+                    if (validation()){
+                        // Serialize the form data.
+                        var formData = $(form).serialize();
+                        
+                        $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                        $(formMessages).addClass("alert alert-info");
+                        $(formMessages).text("Sending...");
+                        $(form).find("button[type=submit]").attr("disabled", true);
+                        
+                        // Submit the form using AJAX.
+                        $.ajax({
+                            type: "POST",
+                            url: $(form).attr("action"),
+                            data: formData
+                        })
+                        .done(function(response) {
+                            // Make sure that the formMessages div has the 'success' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-success");
+
+                            // Set the message text.
+                            $(formMessages).text(response);
+
+                            // Clear the form.
+                            //$("#InputName").val("");
+                            //$("#InputContact").val("");
+                            //$("#TextareaMessage").val("");
+                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
+                            $(form).find("button[type=submit]").attr("disabled", true);
+                        })
+                        .fail(function(data) {
+                            // Make sure that the formMessages div has the 'error' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-danger");
+                            $(form).find("button[type=submit]").attr("disabled", false);
+
+                            // Set the message text.
+                            if (data.responseText !== '') {
+                                $(formMessages).text(data.responseText);
+                            } else {
+                                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                            }
+                        });
+                    }
+                    
+                    
+                    
+                });
+                */
+                
+            });
+            
+            
+        
+        </script>
+
+        <!--#include file="_analytics.html" -->
+        
+    </body>
+</html>

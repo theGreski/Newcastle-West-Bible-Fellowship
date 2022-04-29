@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Food Bank | Newcastle West Bible Fellowship</title>
+        <meta name="robots" content="index, follow" />
+        <!-- Bootstrap CSS -->
+        <!--
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		
+        <link rel="stylesheet" href="static/styles.css">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="64x64" href="static/icon_apple_64.png" />
+        <link rel="apple-touch-icon" sizes="181x181" href="static/icon_apple_181.png" />
+        <link rel="icon" type="image/png" sizes="181x181" href="static/icon_181.png" />
+        <link rel="icon" type="image/png" sizes="64x64" href="static/icon_64.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="static/icon_32.png" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <style>
+            #foodbank > .background {
+                background-image: url("static/foodbank1.jpg");
+            }
+			#foodbank > .foodbank-badge {
+				display: none;
+				
+				max-height: 100%;
+				position: absolute;
+				top: 0;
+				left: 5rem;
+				width: 100%;
+				height: auto;
+			}
+			#foodbank > .foodbank-circle {
+				position: absolute;
+				
+				right: 50%;
+				bottom: 50%;
+				transform: translate(50%, 65%);
+				width: 100%;
+				height: auto;
+				max-width: 68vw;
+				max-height: 100%;
+			}
+			#foodbank + div, #food-donations {
+				padding-bottom: 6em;
+				padding-top: 5em;
+			}
+			
+			@media screen and (min-width: 768px) { /* tablets */
+				#foodbank > .foodbank-badge {
+					display: unset;
+					max-width: 30vw;
+				}
+				#foodbank > .foodbank-circle {
+					max-width: 30vw;
+					right: 5rem;
+					bottom: 4rem;
+					transform: unset;
+				}
+			}
+			@media screen and (min-width: 1200px) { /* tablets */
+				#foodbank > .foodbank-badge {
+					max-width: 18vw;
+				}
+				#foodbank > .foodbank-circle {
+					max-width: 19vw;
+				}
+			}
+        </style>
+    </head>
+    <body>
+        <div id="foodbank" class="halfsize-bg-img container-fluid" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            
+            
+            <!-- ///#include ///file="///_menu.html" ///-->
+            <nav class="navbar navbar-toggleable-xs navbar-light">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#top-navbar">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-label d-none d-sm-inline">Menu</span>
+                </button>
+                <div class="collapse navbar-collapse" id="top-navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="what-its-like.shtml">What its like</a></li>
+                        <li class="nav-item"><a class="nav-link" href="who-we-are.shtml">Who We are</a></li>
+                        <li class="nav-item"><a class="nav-link" href="what-we-believe.shtml">What we believe</a></li>
+                        <li class="nav-item"><a class="nav-link" href="who-is-jesus.shtml">Who is Jesus</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#contact-modal" data-toggle="modal" data-target="#contact-modal">Contact</a></li>-->
+                        <li class="nav-item"><a class="nav-link" href="contact-us.shtml">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+            
+			
+			<img src="static/foodbank-badge.svg" class="foodbank-badge" />
+			
+			<img src="static/foodbank-circle.svg" class="foodbank-circle" />
+			
+        </div>
+        <div class="container">
+            
+            <p class="text-2-custom text-center mt-4"><strong>Street Life</strong> - foodbank</p>
+            
+			<p>Today over 850 million people in the world are hungry. 
+				We often consider third world nations when talking about food hunger yet over 10% of people in Ireland are affected by food poverty, which means that they simply cannot afford to provide themselves and their families with the recommended daily amounts of food. 
+				People finding themselves at risk of food poverty include those living alone; families on low incomes; single parents and families with three of more children.
+			</p>
+			
+			<p>Street Life was established in Newcastle West in 2017 and its aim is to address the effects of food poverty on the local community.</p>
+			
+			<p>Every day people in Ireland go hungry for reasons ranging from redundancy to receiving an unexpected bill on a low income. A simple box of food makes a big difference, with foodbank helping those affected by many circumstances including: housing loss, family breakdown and mental health problems.</p>
+		</div>
+		
+		<div class="container mb-5">
+			
+			<p class="text-2-custom text-center mt-1">FOOD POVERTY STATISTICS</p>
+			
+			<p>
+				According to a Survey on Income and Living Conditions (SILC) conducted by <a href="http://www.cso.ie/en/statistics/socialconditions/surveyonincomeandlivingconditionssilc/" target="_blank" rel="noopener">Central Statistics Office (CSO)</a> in 2016, almost 1 in 10 people live in a consistent poverty in Ireland.
+			</p>
+			
+			<style>
+				.circle-chart {
+					width: 100%;
+					height: auto;
+					max-width: 14rem;
+				}
+				.circle-chart__background {
+					stroke: #efefef;
+				}
+				.circle-chart__circle {
+					stroke: #00acc1;
+					fill: none;
+					stroke-linecap: butt;
+					transform: rotate(-90deg);
+					transform-origin: center;
+					animation: circle-chart-fill 1.3s reverse;
+				}
+				
+				.circle-chart__background, .circle-chart__circle {
+					stroke-width: 5;
+				}
+				.circle-chart__info {
+					
+				}
+				.circle-chart__percent {
+					fill: #00acc1;
+					font-family: inherit;
+					font-weight: lighter;
+					font-size: 0.6rem;
+				}
+				@keyframes circle-chart-fill {
+					to { stroke-dasharray: 0 100; }
+				}
+				
+			</style>
+			
+			<div class="row text-center pt-5 pb-4">
+				<div class="col-4">
+					<svg class="circle-chart" data-chart="16" viewbox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+						<circle class="circle-chart__background" fill="none" cx="19" cy="19" r="16" />
+						<!--<circle class="circle-chart__circle"  stroke-dasharray="16,100" stroke-linecap="butt" fill="none" cx="19" cy="19" r="16" />-->
+						<g class="circle-chart__info">
+							<text class="circle-chart__percent" x="19" y="22" text-anchor="middle">16.5
+								<tspan dx="-2" font-size="0.3rem">%</tspan>
+							</text>
+						</g>
+					</svg>
+					<h6>16.5% of the Irish population live in risk of poverty.</h6>
+				</div>
+				<div class="col-4">
+					<svg class="circle-chart" data-chart="8" viewbox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+						<!--<rect width="40" height="40" fill="red" />-->
+						<circle class="circle-chart__background" fill="none" cx="19" cy="19" r="16" />
+						
+						<g class="circle-chart__info">
+							<text class="circle-chart__percent" x="19" y="22" text-anchor="middle">8.3
+								<tspan dx="-2" font-size="0.3rem">%</tspan>
+							</text>
+						</g>
+					</svg>
+					<h6>8.3% of the Irish population live in consistent poverty.</h6>
+				</div>
+				<div class="col-4">
+					<svg class="circle-chart" data-chart="21" viewbox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+						<circle class="circle-chart__background" fill="none" cx="19" cy="19" r="16" />
+						
+						<g class="circle-chart__info">
+							<text class="circle-chart__percent" x="19" y="22" text-anchor="middle" font-size="10">21
+								<tspan dx="-2" font-size="5">%</tspan>
+							</text>
+						</g>
+					</svg>
+					<h6>21% of the Irish population face material deprivation.</h6>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		<div id="food-donations" class="bg-dark text-white">
+            <div class="container">
+                <h2 class="text-center text-2-custom mb-5">Food donations</h2>
+                <!--<p>Non-perishable in-date food is donated by many leading companies from the area to include fresh and frozen food, cereals, soft drinks, and household goods to the Food Bank. It is then sorted into emergency food parcels by many volunteers, to be given to people in need.</p>
+				<p>The food bank prevents wasteful destruction of good food and contributes to a significant reduction in carbon emissions for the food manufacturing and distribution industry. Every week we're collecting over a hundred kilograms of surplus food and grocery products from manufacuturers, retailers and distributors.</p>
+                <p>Foodbank offers a lot more than food. Volunteers provide a listening ear to people over a warm drink. Foodbank rely on the support of local communitiy to help stop hunger in West Limerick.</p>
+				<p>...............................................</p>
+				-->
+				<p>The Street Life food bank receives donations of fruit and vegetables, bakery and chilled items - still within their use by date. These donations are arranged through Foodcloud, a company who link charitable organisations with leading food retailers. We also greatly benefit from a small number of local businesses who have offered us their ongoing support, as well as receiving donations from individuals. The food is sorted on a weekly basis by volunteers and food parcels are prepared for those in need before the food bank opens to the public on a Friday morning.</p>
+				<p>Another overall benefit to receiving donations from retailers is the reduction of food waste.</p>
+				<p>The food bank offers a lot more than food. Volunteers provide a listening ear to people in our welcoming cafe area where refreshments including fresh soup, tea / coffee and cakes are served free of charge.</p>
+            </div>
+        </div>
+		
+		
+		
+		<div class="container mt-5 mb-5" itemscope itemtype="http://schema.org/Church">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="static/foodbank2.jpg" class="img-fluid" alt="Foodbank cafe area">
+					<p class="mt-3 church_reference">
+						At Newcastle West Bible Fellowship you'll find a community of real people, led by leaders who ephasize their real-world, real-life experience to guide our community toward an authentic and aboundant life.</p>
+            		<div class="row church_reference">
+            		    <div class="col-12 text-center">
+            		        <a href="/" class="btn btn-outline-primary text-uppercase mt-5">whant to know more?</a>
+            		    </div>
+            		</div>
+					
+                </div>
+                <div class="offset-md-1 col-md-4">
+                    <!-- 
+                        when modifying name, telephones, address or times, 
+                        remember to update info on google places, google mybusiness 
+                    -->
+                    <span class="d-sm-none invisible" itemprop="name">Newcastle West Bible Fellowship</span>
+                    <p class="lead text-uppercase">Food distribution</p>
+                    <dl class="row" itemprop="openingHours" content="Fr 10:00-12:00">
+                        <dt class="col-lg-3">Friday</dt>
+                        <dd class="col-lg-9">10:00 AM</dd>
+                    </dl>
+                    
+                    <p class="lead text-uppercase">Contact</p>
+                    <div class="row">
+                        <div class="col-lg-6" itemprop="telephone" content="+353862157975">Andrew Shanks<br><a href="tel:0862157975">086&nbsp;2157975</a></div>
+                        <div class="col-lg-6" itemprop="telephone" content="+353864468535">E-mail:<br><a href="mailto:streetlife@gmail.com">streetlife@gmail.com</a></div>
+                    </div>
+                    
+					<p class="lead text-uppercase">Location</p>
+                    <a href="http://maps.google.com?52.449682,-9.058183&q=Newcastle+West+Bible+Fellowship" target="_blank">
+                        <ul class="list-unstyled" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <li itemprop="streetAddress">North Quay</li>
+                            <li itemprop="addressLocality">Newcastle West</li>
+                            <li itemprop="addressRegion">Co. Limerick</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!--#include file="_footer.shtml" -->
+        
+        <!-- _contact.html -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <!--
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		
+		
+		
+
+        <script>
+            !function(t){var i=t(window);t.fn.visible=function(t,e,o){if(!(this.length<1)){var r=this.length>1?this.eq(0):this,n=r.get(0),f=i.width(),h=i.height(),o=o?o:"both",l=e===!0?n.offsetWidth*n.offsetHeight:!0;if("function"==typeof n.getBoundingClientRect){var g=n.getBoundingClientRect(),u=g.top>=0&&g.top<h,s=g.bottom>0&&g.bottom<=h,c=g.left>=0&&g.left<f,a=g.right>0&&g.right<=f,v=t?u||s:u&&s,b=t?c||a:c&&a;if("both"===o)return l&&v&&b;if("vertical"===o)return l&&v;if("horizontal"===o)return l&&b}else{var d=i.scrollTop(),p=d+h,w=i.scrollLeft(),m=w+f,y=r.offset(),z=y.top,B=z+r.height(),C=y.left,R=C+r.width(),j=t===!0?B:z,q=t===!0?z:B,H=t===!0?R:C,L=t===!0?C:R;if("both"===o)return!!l&&p>=q&&j>=d&&m>=L&&H>=w;if("vertical"===o)return!!l&&p>=q&&j>=d;if("horizontal"===o)return!!l&&m>=L&&H>=w}}}}(jQuery);
+			
+			
+			
+			
+            var screen;
+			var chartRotate;
+            
+			
+            function draw() {
+                requestAnimationFrame(draw);
+                // Drawing code goes here
+                scrollEvent();
+            }
+            draw();
+            function scrollEvent(){
+				
+				var chart = $(".circle-chart");
+				if (chartRotate !== true) {
+					if (chart.visible()) {
+						console.log("Rotate");
+						chartRotate = true;
+						chart.each(function(){
+							$(document.createElementNS('http://www.w3.org/2000/svg', 'circle')).attr('class', 'circle-chart__circle').attr('stroke-dasharray', $(this).data("chart") + ',100').attr('cx', '19').attr('cy', '19').attr('r', '16').attr('transform', 'rotate(-90 19 19)').appendTo(this);
+						});
+					}
+				}
+				
+                var scroll = $(window).scrollTop();
+                
+                if($(window).width())
+                    $("div[data-parallax='true']").each(function(){
+                    //$.each(parallaxElements,function(){
+                        //console.log( $(this).data("parallax") );
+                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
+                        screen = parseInt( $(this).outerHeight() );
+                        var toppos = parseInt( $(this).offset().top - scroll );
+                        //if ( toppos <= screen + 20) {
+                            if (bottompos > -20) {
+                                distance = (screen - bottompos) / $(this).data("speed");
+                                //console.log( $(this).attr("id") );
+                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
+                            }
+                        //}
+                    });
+            }
+            
+            
+            // After DOM load check height of the selector with height:100vh
+            // then set it to that selector
+            // when address bar hides on mobile, it will not resize
+            // recalculate only on orientationchange
+            //
+            function calcVH() {
+                var vH = Math.max(document.getElementById("foodbank").offsetHeight);
+                document.getElementById("foodbank").setAttribute("style", "height:" + vH + "px;");
+            }
+            
+            window.addEventListener('onorientationchange', calcVH, true);
+            
+            /*
+            function validation(){
+                var errors = false;
+                if (!$("#g-recaptcha-response").val()) {
+                    errors = true;
+                }
+                $("#ajax-contact > .form-group").each(function(){
+                    var warn = false;
+                    $(this).find("input, textarea").each(function(){
+                        if ($(this).val().length <= 1){
+                            errors = true;
+                            warn = true;
+                            $(this).addClass("form-control-warning");
+                        } else {
+                            warn = false;
+                            $(this).removeClass("form-control-warning");
+                        }
+                    });
+                    if (warn == true) {
+                        $(this).addClass("has-warning");
+                    } else {
+                        $(this).removeClass("has-warning");
+                    }
+                });
+                return !errors;
+            }
+            */
+            $(document).ready(function(){
+                
+                calcVH();
+                
+                $("div.totop").on("click", function(){
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    return false;
+                });
+				
+				
+				
+				if(location.hostname.match("ncwbiblefellowship.com") || document.referrer.match("ncwbiblefellowship111.com")) {
+					
+					console.log("You're on NCWBF website or came from it");
+					console.log("Removing church info reference");
+					
+    				$(".church_reference").remove();
+					
+				} else {
+					
+					console.log("You're NOT on NCWBF website or came from it");
+					console.log("Will keep church info reference");
+					
+				}
+				
+            });
+            
+            
+        
+        </script>
+        
+        <!--#include file="_analytics.html" -->
+        
+    </body>
+</html>

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Newcastle West Bible Fellowship</title>
+        <meta name="description" content="Newcastle West Bible Fellowship is the assembly of Born Again Christians, followers of Jesus Christ, who look to the Bible for our spiritual teaching. Church is situated in Co.Limerick Ireland.">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com; frame-src https://www.youtube.com">
+		<meta name="robots" content="index, follow" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/styles.css">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="64x64" href="static/icon_apple_64.png" />
+        <link rel="apple-touch-icon" sizes="181x181" href="static/icon_apple_181.png" />
+        <link rel="icon" type="image/png" sizes="181x181" href="static/icon_181.png" />
+        <link rel="icon" type="image/png" sizes="64x64" href="static/icon_64.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="static/icon_32.png" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		
+		<!-- Open Graph -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Newcastle West Bible Fellowship" />
+		<meta property="og:locale" content="en_IE" />
+		<meta property="og:description" content="Newcastle West Bible Fellowship is the assembly of Born Again Christians, followers of Jesus Christ, who look to the Bible for our spiritual teaching. Church is situated in Co.Limerick Ireland." />
+		<meta property="og:url" content="https://www.ncwbiblefellowship.com/" />
+		<meta property="og:image" content="https://www.ncwbiblefellowship.com/static/whatitslike2.jpg" />
+		<meta property="og:image:width" content="2193" />
+		<meta property="og:image:height" content="859" />
+		
+        <style>
+            .fullsize-bg-img {
+                height: 100vh;
+            }
+            #welcome > .background {
+                background-image: url("static/welcome2a.jpg");
+            }
+			video, iframe {
+				width: 100% !important;
+				height: auto !important;
+			}
+        </style>
+		<!--
+		<link rel="prefetch" href="static/whatitslike2.jpg">
+		<link rel="prefetch" href="static/what-we-believe.jpg">
+		<link rel="prefetch" href="static/contact_us-4.png">
+		<link rel="prefetch" href="static/road.jpg">
+		<link rel="prefetch" href="static/whoweare3.jpg">
+		<link rel="prefetch" href="static/youngage1.jpg">
+		-->
+    </head>
+    <body>
+        <div id="welcome" class="fullsize-bg-img container-fluid" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            <a class="brand-logo" href="./">
+                <img src="static/ncwbf-white.svg" alt="Newcastle West Bible Fellowship logo" />
+            </a>
+            
+            <!--#include file="_menu.html" -->
+            
+            <div class="container">
+                <h1 class="text-uppercase display-3" >WeLCOME TO <wbr>NEWCASTLE WEST <wbr>BIBLE FELLOWSHIP</h1>
+            </div>
+            
+        </div>
+        <div id="new-here" class="container">
+            <!--
+			<p class="text-uppercase lead">Going to a new place for this first time can be challenging. Let us make you feel welcome!</p>
+            <p>We've made it our priority to make you feel welcome, comfortable and loved. Having an idea of what to expect can help.</p>
+            <p>Newcastle West Bible Fellowship is made of ordinary people who worship an extraordinary God. As followers of Jesus we seek to know the Love of God, Learn of Him, and Live a life committed to serving Him and others.</p>
+            <p>People from all walks of life are welcome here, regardless of where they are in their spiritual journey.</p>
+            <p>Our Bible Preaching starts at either 11:15am on Sundays at North Quay in Newcastle West, Co. Limerick. Come a few minutes early and grab a cup of tea or coffee. If you have kids, just ask one of our greeters for information on avaliable activities.</p>
+			-->
+			
+			<p class="text-uppercase lead">Due to the Covid-19 situation, all of the Public meetings and Coffee morning at NCW Bible Fellowship are currently suspended until further notice.</p>
+			<p>
+				As a nation we have all been affected by the current covid-19 emergency. Almost overnight 
+				our lives were changed, and many people have been left with what they feel is an uncertain 
+				future. Fear and anxiety are prevalent in our society and people are wondering where to turn 
+				to for the answers to some of life's questions. When life gets rough &hellip; really ROUGH, and 
+				when human help isn't enough where do you turn? There really are only a few options - You 
+				can pretend it will be ok, you can drown in despair or you can find real and certain hope. We 
+				believe that God's word, the Bible is as real and relevant today as it has always been and 
+				brings a message of hope and good news to a hurting world. This hope is not in material 
+				things or a religion or church but in a person, Jesus Christ.
+			</p>
+			<p>Although we are currently closed for Public meetings the church is still functioning and if we can be of any assistance to you, if we can pray for you or if you would like to receive a free Bible please get in touch with us.</p>
+			<p>Please click on the links below to some Video and Audio files which we trust will be a help to you.</p>
+			
+			<div class="row">
+                <div class="col text-center">
+                    <a href="https://www.goodnews4u.net/play?title=Hope-in-the-Storms-of-Life" target="_blank" rel="noreferrer" class="btn btn-outline-primary text-uppercase mt-5">Listen to "Hope in the Storms of Life"</a>
+                </div>
+            </div>
+			
+			<div class="row mt-5">
+                <div class="col-sm-4 text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5rQxzlOdMu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1ghUW4WM0Tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/h0nXdCmYFiA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+		
+		
+		
+		</div>
+        
+        <div id="get-connected" class="fullsize-bg-img">
+            <div class="container">
+                <h2 class="text-uppercase display-3">Get<br>connected</h2>
+            </div>
+        </div>
+        <div class="container">
+            <p lead class="lead text-uppercase">Getting Involved is Simple<br>
+                We believe God is doing something special at Newcastle West Bible Fellowship, and we want you to be a part of it.</p>
+            <p><strong>Come as you are.</strong> At Newcastle West Bible Fellowship, we deal in real-life, not make-believe, so there is no room for spiritual superiority or reputation building. Just come as you are, because nobody here is perfect—and hopefully, nobody pretends to be.</p>
+            <p><strong>Get connected.</strong> No one should face real-life alone. Sometimes life comes in the form of joy and happiness; other times it comes in pain and suffering. No matter your season in life, our desire is to help you create your own community. While we can't make friends for you, we can help you, and your family, connect. We offer many ways to help you engage with others.</p> 
+            <p><strong>Serve.</strong> You were created on purpose, with purpose, by a God who thinks your life is way too important to let you spend it all on yourself. Our desire is to help you discover and develop your life's purpose by offering you opportunities to serve and connect. Whether you are people-oriented or task-oriented, introverted or extroverted, a long-term Christ follower or just checking God out, we have something for you.</p>
+            <!--<div class="row">
+                <div class="col text-center">
+                    <a href="foodbank.shtml" class="btn btn-outline-primary text-uppercase mt-5">food bank</a>
+                </div>
+            </div>-->
+        </div>
+        
+        <div id="location" class="fullsize-bg-img">
+            <div class="container">
+                <h2 class="text-uppercase display-3">Location</h2>
+            </div>
+        </div>
+        <div class="container" itemscope itemtype="http://schema.org/Church">
+            <div class="row">
+                <div class="col-md-7">
+                    <p class="lead">Located in Newcastle West, our church has a passion for sharing Christ's love</p>
+                    <p>We are a local church who believe that God has a plan and a purpose for you and your family! 
+                        Newcastle West Bible Fellowship begun back in 1999, and since then we're growing with a passion to help you find your purpose and place in this life through a growing relationship with Jesus.</p>
+                    <p>Maybe you grew up at church, and now that you have a family of your own you are thinking about finding a place&hellip; or maybe you've come to the place where you have everything in life that you've ever wanted, and yet it still seems as if something is missing. No matter where you are in the journey of life, we have a place for you.</p>
+                    <p>Please join us. We'd love for you to be a part of the Newcastle West Bible Fellowship!</p>
+                </div>
+                <div class="offset-md-1 col-md-4">
+                    <!-- 
+                        when modifying name, telephones, address or times, 
+                        remember to update info on google places, google mybusiness 
+                    -->
+                    <span class="hidden-xs-up" itemprop="name">Newcastle West Bible Fellowship</span>
+                    <p class="lead text-uppercase">Service times</p>
+                    <dl class="row" itemprop="openingHours" content="Su 10:30-11:30">
+                        <dt class="col-lg-3">Sunday</dt>
+                        <dd class="col-lg-9">10:30 AM - Breaking of Bread</dd>
+                    </dl>
+                    <dl class="row" itemprop="openingHours" content="Su 11:45-12:45">
+                        <dt class="col-lg-3"></dt>
+                        <dd class="col-lg-9">11:45 AM - Family Service</dd>
+                    </dl>
+                    <dl class="row" itemprop="openingHours" content="Su 19:00-20:00">
+                        <dt class="col-lg-3"></dt>
+                        <dd class="col-lg-9">7:00 PM - Evening Service</dd>
+                    </dl>
+                    <dl class="row" itemprop="openingHours" content="Th 19:00-20:00">
+                        <dt class="col-lg-3">Thursday</dt>
+                        <dd class="col-lg-9">7:00 PM - Prayer and Devotional</dd>
+                    </dl>
+                    <p class="lead text-uppercase">Phones</p>
+                    <div class="row">
+                        <div class="col-lg-4" itemprop="telephone" content="+353857381970"><a href="tel:0857381970">085&nbsp;7381970</a></div>
+                        <div class="col-lg-4" itemprop="telephone" content="+353868744182"><a href="tel:0868744182">086&nbsp;8744182</a></div>
+                        <div class="col-lg-4" itemprop="telephone" content="+353864468535"><a href="tel:0864468535">086&nbsp;4468535</a></div>
+                    </div>
+                    <p class="lead text-uppercase">Location</p>
+                    <a href="http://maps.google.com?52.449682,-9.058183&q=Newcastle+West+Bible+Fellowship" target="_blank">
+                        <ul class="list-unstyled" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <li itemprop="streetAddress">North Quay</li>
+                            <li itemprop="addressLocality">Newcastle West</li>
+                            <li itemprop="addressRegion">Co. Limerick</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="fullsize-bg-img" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            <div class="container">
+                <h2 class="text-uppercase display-3">want to know more?</h2>
+            </div>
+        </div>
+        <div class="container">
+            <p lead class="lead text-uppercase">
+                At Newcastle West Bible Fellowship you'll find a community of real people, led by leaders who emphasize their real-world, real-life experience to guide our community toward an authentic and abundant life.
+            </p>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <a href="what-its-like.shtml" class="btn btn-outline-primary text-uppercase mt-4">what its like</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a href="who-we-are.shtml" class="btn btn-outline-primary text-uppercase mt-4">who we are</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a href="what-we-believe.shtml" class="btn btn-outline-primary text-uppercase mt-4">What we believe</a>
+                </div>
+            </div>
+        </div>
+        <div id="learn-about-jesus" class="fullsize-bg-img" >
+            <div class="container">
+                <h2 class="text-uppercase display-3">who is Jesus</h2>
+            </div>
+        </div>
+        <div class="container">
+            <p class="lead">The understanding of Christ is hugely important. Jesus is the saviour of the world and He wants a relationship with you.</p>
+            <p>BUT WHO IS HE? WHAT SORT OF MAN IS THIS?</p>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="who-is-jesus.shtml" class="btn btn-outline-primary text-uppercase mt-5">learn more about jesus</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--#include file="_footer.shtml" -->
+        
+        
+        
+        
+        
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        
+        
+        
+        
+        
+        <script>
+            
+            var screen = parseInt($(window).height());
+            var parallaxElements;
+            var counter = 0;
+            
+            
+            function draw() {
+                requestAnimationFrame(draw);
+                // Drawing code goes here
+                scrollEvent();
+            }
+            draw();
+            function scrollEvent(){
+                //counter++;
+                //if (counter > 100) {
+                //    return;
+                //}
+                //console.time('scrollevent');
+                var scroll = $(window).scrollTop();
+                
+                if($(window).width())
+                    //$("div[data-parallax='true']").each(function(){
+                    $.each(parallaxElements,function(){
+                        //console.log( $(this).data("parallax") );
+                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
+                        var toppos = parseInt( $(this).offset().top - scroll );
+                        if ( toppos <= screen + 20) {
+                            if (bottompos > -20) {
+                                distance = (screen - bottompos) / $(this).data("speed");
+                                //console.log( $(this).attr("id") );
+                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
+                            }
+                        }
+                    });
+                //console.timeEnd('scrollevent');
+                return;
+            }
+            
+            function findParallax(){
+                parallaxElements = $("div[data-parallax='true']")
+            }
+            
+            
+            
+            // After DOM load check height of the selector with height:100vh
+            // then set it to that selector
+            // when address bar hides on mobile, it will not resize
+            // recalculate only on orientationchange
+            //
+            function calcVH() {
+                // full height elements
+                var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+                document.getElementById("welcome").setAttribute("style", "height:" + vH + "px;");
+                document.getElementById("location").setAttribute("style", "height:" + vH + "px;");
+                document.getElementById("learn-about-jesus").setAttribute("style", "height:" + vH + "px;");
+                
+                // element height
+                var vH = Math.max(document.getElementById("get-connected").offsetHeight);
+                document.getElementById("get-connected").setAttribute("style", "height:" + vH + "px;");
+                var vH = Math.max(document.getElementById("about").offsetHeight);
+                document.getElementById("about").setAttribute("style", "height:" + vH + "px;");
+            }
+            
+            window.addEventListener('onorientationchange', calcVH, true);
+            
+            /*
+            function validation(){
+                var errors = false;
+                if (!$("#g-recaptcha-response").val()) {
+                    errors = true;
+                }
+                $("#ajax-contact > .form-group").each(function(){
+                    var warn = false;
+                    $(this).find("input, textarea").each(function(){
+                        if ($(this).val().length <= 1){
+                            errors = true;
+                            warn = true;
+                            $(this).addClass("form-control-warning");
+                        } else {
+                            warn = false;
+                            $(this).removeClass("form-control-warning");
+                        }
+                    });
+                    if (warn == true) {
+                        $(this).addClass("has-warning");
+                    } else {
+                        $(this).removeClass("has-warning");
+                    }
+                });
+                return !errors;
+            }
+            */
+            $(document).ready(function(){
+                
+                findParallax();
+                
+                calcVH();
+                
+                /*
+                $(window).resize(function() {
+                    // code to be executed on resize
+                }).resize();
+                */
+                
+                /*
+                $(window).scroll(function() {
+                    // code to be executed on scroll - heavy on performance
+                }).scroll();
+                */
+                
+                $("div.totop").on("click", function(){
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    return false;
+                });
+                
+				
+				
+				// MODAL setting up
+				// with two second delay after page ready
+				setTimeout( function(){
+					
+					// Create modal details
+					const timed_modal = {
+						dateStart: "2020-06-03",
+						dateEnd: "2020-07-02", 		// Always add 1 day eg. to cover 15Aug type 16Aug
+						url: "summer_2020.jpg",			// file name of the picture to display
+						caption: ""
+					}
+					
+					if (Date.now() >= Date.parse(timed_modal.dateStart) && Date.now() <= Date.parse(timed_modal.dateEnd) ) {
+						console.log("Display modal picture");
+						// Construct 
+						const my_modal = '<div class="modal-overlay-wrapper"><img src="static/' + timed_modal.url + '" class="modal-overlay-picture" /></div>';
+						//jQuery("body").append(my_modal);
+						
+						$( my_modal ).appendTo( "body" ).fadeIn(1000).on("click", function(){ $(this).remove(); });
+						
+						//$(".modal-overlay-wrapper").on("click", function(){
+						//	$(this).remove();
+						//});
+					} else {
+						console.log("Do not display modal picture");
+					}
+					
+				}, 3000);
+				
+				
+				
+				
+				
+                /*
+                // Sending contact form using ajax technology
+                // Get the form and messages container
+                //
+                var form = $("#ajax-contact"),
+                    formMessages = $("#form-messages");
+                
+                // Set up an event listener for the contact form.
+                $(form).submit(function(event) {
+                    // Stop the browser from submitting the form.
+                    event.preventDefault();
+                    
+                    if (validation()){
+                        // Serialize the form data.
+                        var formData = $(form).serialize();
+                        
+                        $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                        $(formMessages).addClass("alert alert-info");
+                        $(formMessages).text("Sending...");
+                        $(form).find("button[type=submit]").attr("disabled", true);
+                        
+                        // Submit the form using AJAX.
+                        $.ajax({
+                            type: "POST",
+                            url: $(form).attr("action"),
+                            data: formData
+                        })
+                        .done(function(response) {
+                            // Make sure that the formMessages div has the 'success' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-success");
+
+                            // Set the message text.
+                            $(formMessages).text(response);
+
+                            // Clear the form.
+                            //$("#InputName").val("");
+                            //$("#InputContact").val("");
+                            //$("#TextareaMessage").val("");
+                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
+                            $(form).find("button[type=submit]").attr("disabled", true);
+                        })
+                        .fail(function(data) {
+                            // Make sure that the formMessages div has the 'error' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-danger");
+                            $(form).find("button[type=submit]").attr("disabled", false);
+
+                            // Set the message text.
+                            if (data.responseText !== '') {
+                                $(formMessages).text(data.responseText);
+                            } else {
+                                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                            }
+                        });
+                    }
+                    
+                    
+                    
+                });
+                */
+            });
+            
+        </script>
+
+        <!--#include file="_analytics.html" -->
+
+    </body>
+</html>

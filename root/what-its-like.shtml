@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>What its like | Newcastle West Bible Fellowship</title>
+        <meta name="robots" content="index, follow" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/styles.css">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="64x64" href="static/icon_apple_64.png" />
+        <link rel="apple-touch-icon" sizes="181x181" href="static/icon_apple_181.png" />
+        <link rel="icon" type="image/png" sizes="181x181" href="static/icon_181.png" />
+        <link rel="icon" type="image/png" sizes="64x64" href="static/icon_64.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="static/icon_32.png" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <style>
+            #whatitslike > .background {
+                background-image: url("static/whatitslike2.jpg");
+            }
+            #whatitslike + div {
+                padding-bottom: 7em;
+                padding-top: 5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="whatitslike" class="halfsize-bg-img container-fluid" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            <a class="brand-logo" href="./">
+                <img src="static/ncwbf-white.svg" alt="Newcastle West Bible Fellowship logo" />
+            </a>
+            
+            <!--#include file="_menu.html" -->
+            
+            <div class="container">
+                <h1 class="text-uppercase display-3" >what its like</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="media mb-4">
+                <img class="d-flex align-self-center mr-3" src="static/icon-family.png" alt="Something for everyone icon">
+                <div class="media-body align-self-center text-center text-2-custom">SOMETHING FOR EVERYONE</div>
+            </div>
+            <div class="media mb-4">
+                <img class="d-flex align-self-center mr-3" src="static/icon-wheelchair.png" alt="Wheelchair accessibility icon">
+                <div class="media-body align-self-center text-center text-2-custom">WHEELCHAIR ACCESSIBILITY</div>
+            </div>
+            <div class="media">
+                <img class="d-flex align-self-center mr-3" src="static/icon-tshirt.png" alt="Come comfortable icon">
+                <div class="media-body align-self-center text-center text-2-custom">COME COMFORTABLE</div>
+            </div>
+            
+            <p class="lead mt-5">Going to a new place for this first time can be challenging. Let us make you feel welcome!</p>
+            
+            <p>We’ve made it our priority to make you feel welcome, comfortable and loved. Having an idea of what to expect can help.</p>
+            <p class="text-3-custom text-center mt-4"><strong>Welcome to Newcastle West Bible Fellowship</strong></p>
+            <p>Newcastle West Bible Fellowship is made of ordinary people who worship an extraordinary God. As followers of Jesus we seek to know the Love of God, Learn of Him, and Live a life committed to serving Him and others.</p>
+            <p>People from all walks of life are welcome here, regardless of where they are in their spiritual journey.</p>
+            
+            <p class="text-3-custom text-center mt-4"><strong>What to Expect</strong></p>
+            
+            <p><strong>What's It Like</strong> - Our worship services are all about Jesus, and we worship Him through many expressions. From studying the Word of God, singing, music, prayer and breaking bread together, the whole service is focused on worshiping Him.</p>
+            <p><strong>What's Happening</strong> - Coming through the doors you will be greeted by friendly welcoming people. Don’t worry, they won't hassle you or make you sign up for something. The greeters will answer any questions you may have, and help direct you to where you are trying to go.</p>
+            <p><strong>What Do I Wear</strong> - What do I wear? - Honestly, whatever you want to. Jesus clearly teaches to come to Him just as you are. Generally the people here dress casually. It doesn't matter if you prefer suits or sandals, you are welcome here!</p>
+            <p><strong>What about kids</strong> - We love kids. We love them so much that we have a special service designed just for them. Our desire is to help parents raise kids who love Jesus. When you come, just ask one of our greeters at the door for information on where to take them.</p>
+            <p><strong>What time</strong> - That really depends on you. We enjoy the conversation and connection before and after each service, and would like to get to know you as well. If you have kids, then we suggest that you come at least 20 minutes before the start time.</p>
+        </div>
+        
+        <!--#include file="_footer.shtml" -->
+        
+        <!-- _contact.html -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!--<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>-->
+        
+        
+        
+        
+        
+        <script>
+            
+            var screen;
+            
+            function draw() {
+                requestAnimationFrame(draw);
+                // Drawing code goes here
+                scrollEvent();
+            }
+            draw();
+            function scrollEvent(){
+                var scroll = $(window).scrollTop();
+                
+                if($(window).width())
+                    $("div[data-parallax='true']").each(function(){
+                    //$.each(parallaxElements,function(){
+                        //console.log( $(this).data("parallax") );
+                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
+                        screen = parseInt( $(this).outerHeight() );
+                        var toppos = parseInt( $(this).offset().top - scroll );
+                        //if ( toppos <= screen + 20) {
+                            if (bottompos > -20) {
+                                distance = (screen - bottompos) / $(this).data("speed");
+                                //console.log( $(this).attr("id") );
+                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
+                            }
+                        //}
+                    });
+            }
+            
+            
+            
+            
+            // After DOM load check height of the selector with height:100vh
+            // then set it to that selector
+            // when address bar hides on mobile, it will not resize
+            // recalculate only on orientationchange
+            //
+            function calcVH() {
+                var vH = Math.max(document.getElementById("whatitslike").offsetHeight);
+                document.getElementById("whatitslike").setAttribute("style", "height:" + vH + "px;");
+            }
+            
+            window.addEventListener('onorientationchange', calcVH, true);
+            
+            /*
+            function validation(){
+                var errors = false;
+                if (!$("#g-recaptcha-response").val()) {
+                    errors = true;
+                }
+                $("#ajax-contact > .form-group").each(function(){
+                    var warn = false;
+                    $(this).find("input, textarea").each(function(){
+                        if ($(this).val().length <= 1){
+                            errors = true;
+                            warn = true;
+                            $(this).addClass("form-control-warning");
+                        } else {
+                            warn = false;
+                            $(this).removeClass("form-control-warning");
+                        }
+                    });
+                    if (warn == true) {
+                        $(this).addClass("has-warning");
+                    } else {
+                        $(this).removeClass("has-warning");
+                    }
+                });
+                return !errors;
+            }
+            */
+            
+            $(document).ready(function(){
+                
+                calcVH();
+                
+                $("div.totop").on("click", function(){
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    return false;
+                });
+                
+                /*
+                // Sending contact form using ajax technology
+                // Get the form and messages container
+                //
+                var form = $("#ajax-contact"),
+                    formMessages = $("#form-messages");
+                
+                // Set up an event listener for the contact form.
+                $(form).submit(function(event) {
+                    // Stop the browser from submitting the form.
+                    event.preventDefault();
+                    
+                    if (validation()){
+                        // Serialize the form data.
+                        var formData = $(form).serialize();
+                        
+                        $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                        $(formMessages).addClass("alert alert-info");
+                        $(formMessages).text("Sending...");
+                        $(form).find("button[type=submit]").attr("disabled", true);
+                        
+                        // Submit the form using AJAX.
+                        $.ajax({
+                            type: "POST",
+                            url: $(form).attr("action"),
+                            data: formData
+                        })
+                        .done(function(response) {
+                            // Make sure that the formMessages div has the 'success' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-success");
+
+                            // Set the message text.
+                            $(formMessages).text(response);
+
+                            // Clear the form.
+                            //$("#InputName").val("");
+                            //$("#InputContact").val("");
+                            //$("#TextareaMessage").val("");
+                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
+                            $(form).find("button[type=submit]").attr("disabled", true);
+                        })
+                        .fail(function(data) {
+                            // Make sure that the formMessages div has the 'error' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-danger");
+                            $(form).find("button[type=submit]").attr("disabled", false);
+
+                            // Set the message text.
+                            if (data.responseText !== '') {
+                                $(formMessages).text(data.responseText);
+                            } else {
+                                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                            }
+                        });
+                    }
+                    
+                    
+                    
+                });
+                */
+            });
+            
+            
+        
+        </script>
+
+        <!--#include file="_analytics.html" -->
+        
+    </body>
+</html>

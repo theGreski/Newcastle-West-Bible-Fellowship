@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Who we are | Newcastle West Bible Fellowship</title>
+        <meta name="robots" content="index, follow" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/styles.css">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="64x64" href="static/icon_apple_64.png" />
+        <link rel="apple-touch-icon" sizes="181x181" href="static/icon_apple_181.png" />
+        <link rel="icon" type="image/png" sizes="181x181" href="static/icon_181.png" />
+        <link rel="icon" type="image/png" sizes="64x64" href="static/icon_64.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="static/icon_32.png" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <style>
+            #who-we-are > .background {
+                background-image: url("static/whoweare3.jpg");
+                background-position: center bottom;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="who-we-are" class="halfsize-bg-img container-fluid" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            <a class="brand-logo" href="./">
+                <img src="static/ncwbf-white.svg" alt="Newcastle West Bible Fellowship logo" />
+            </a>
+            
+            <!--#include file="_menu.html" -->
+            
+            <div class="container">
+                <h1 class="text-uppercase display-3" >who we are</h1>
+            </div>
+        </div>
+        <div class="container">
+            
+            <p class="text-3-custom text-center mt-4"><strong>About</strong></p>
+
+            <p>
+                <strong>What is a Bible Fellowship</strong><br>
+                We are a group of ordinary people who believe that the Bible is the living Word of God and is real to us today.
+            </p>
+            <p>
+                We are people who live in and around Newcastle West who come from all age groups and walks of life. We have been meeting as a church since 1999.
+            </p>
+            <p>
+                Jesus Christ has made a difference in our lives and our trust is in Him alone for the forgiveness of our sins.
+            </p>
+            <p>
+                We enjoy being together and welcome new friends to our local church to explore the Christian faith with us.
+            </p>
+            <p>
+                YOU would be very welcome to come along and find out more for yourself.
+            </p>
+            
+            <p class="text-3-custom text-center mt-4"><strong>Mission</strong></p>
+            
+            <p>
+                We believe that it is our responsibility, as believers in the Lord Jesus, to share the good news about who He is with the whole world.
+            </p>
+            
+            <p>
+                We endeavour to model our personal and church life on the teaching of God's Word rather than on personal opinions or religious traditions, and so seek to follow the priorities established in the early church, including the apostles' doctrine, fellowship, breaking of bread, and prayer.
+            </p>
+            
+            <p class="text-3-custom text-center mt-4"><strong>Our elders</strong></p>
+            
+            <p>
+                Elders - Leadership of an assembly is the responsibility of a plurality of elders (Titus 1:5), also described as overseers (1 Timothy 3:1-2; Titus 1:5-7). 
+                Elders are responsible to shepherd the people of God (1 Peter 5:2; Acts 20:28). This involves feding (Acts 20:28), guarding (Acts 20:31), supporting (Acts 20:35), guiding by exhortation (Titus 1:9), and example 
+                (1 Peter 5:3; Hebrews 13:7). Ministries in which the elders should be primarily involved include teaching, visitation and counseling.
+            </p>
+            <p>
+                If you have any questions, concerns or needs that you would like to discuss, please feel free to contact one of us.
+            </p>
+            
+            <div class="media mb-4">
+                <img class="d-flex align-self-center mr-3 rounded-circle" src="static/colin.jpg" alt="Colin">
+                <div class="media-body align-self-center">
+                    <p class="text-4-custom text-uppercase mb-1"><strong>Colin &amp; Natalie Burnett</strong></p>
+                    Serving the Lord in Newcastle West, Ireland since 1999<br>
+                    <a href="tel:0857381970">085&nbsp;738&nbsp;1970</a>
+                </div>
+            </div>
+            <div class="media mb-4">
+                <img class="d-flex align-self-center mr-3 rounded-circle" src="static/andy.jpg" alt="Andrew">
+                <div class="media-body align-self-center">
+                    <p class="text-4-custom text-uppercase mb-1"><strong>Andrew &amp; Gillian Shanks</strong></p>
+                    Serving the Lord in Newcastle West, Ireland since 2007<br>
+                    <a href="tel:0868744182">086&nbsp;874&nbsp;4182</a>
+                </div>
+            </div>
+            <div class="media">
+                <img class="d-flex align-self-center mr-3 rounded-circle" src="static/greg.jpg" alt="Greg">
+                <div class="media-body align-self-center">
+                    <p class="text-4-custom text-uppercase"><strong>Gregor &amp; Marta Rekowski</strong></p>
+                    <a href="tel:0864468535">086&nbsp;446&nbsp;8535</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!--#include file="_footer.shtml" -->
+        
+        <!-- _contact.html -->
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!--<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>-->
+        
+        
+        
+        
+        
+        <script>
+            
+            var screen;
+            
+            function draw() {
+                requestAnimationFrame(draw);
+                // Drawing code goes here
+                scrollEvent();
+            }
+            draw();
+            function scrollEvent(){
+                var scroll = $(window).scrollTop();
+                
+                if($(window).width())
+                    $("div[data-parallax='true']").each(function(){
+                    //$.each(parallaxElements,function(){
+                        //console.log( $(this).data("parallax") );
+                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
+                        screen = parseInt( $(this).outerHeight() );
+                        var toppos = parseInt( $(this).offset().top - scroll );
+                        //if ( toppos <= screen + 20) {
+                            if (bottompos > -20) {
+                                distance = (screen - bottompos) / $(this).data("speed");
+                                //console.log( $(this).attr("id") );
+                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
+                            }
+                        //}
+                    });
+            }
+            
+            
+            
+            
+            // After DOM load check height of the selector with height:100vh
+            // then set it to that selector
+            // when address bar hides on mobile, it will not resize
+            // recalculate only on orientationchange
+            //
+            function calcVH() {
+                var vH = Math.max(document.getElementById("who-we-are").offsetHeight);
+                document.getElementById("who-we-are").setAttribute("style", "height:" + vH + "px;");
+            }
+            
+            window.addEventListener('onorientationchange', calcVH, true);
+            
+            /*
+            function validation(){
+                var errors = false;
+                if (!$("#g-recaptcha-response").val()) {
+                    errors = true;
+                }
+                $("#ajax-contact > .form-group").each(function(){
+                    var warn = false;
+                    $(this).find("input, textarea").each(function(){
+                        if ($(this).val().length <= 1){
+                            errors = true;
+                            warn = true;
+                            $(this).addClass("form-control-warning");
+                        } else {
+                            warn = false;
+                            $(this).removeClass("form-control-warning");
+                        }
+                    });
+                    if (warn == true) {
+                        $(this).addClass("has-warning");
+                    } else {
+                        $(this).removeClass("has-warning");
+                    }
+                });
+                return !errors;
+            }
+            */
+            
+            $(document).ready(function(){
+                
+                calcVH();
+                
+                $("div.totop").on("click", function(){
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    return false;
+                });
+                /*
+                // Sending contact form using ajax technology
+                // Get the form and messages container
+                //
+                var form = $("#ajax-contact"),
+                    formMessages = $("#form-messages");
+                
+                // Set up an event listener for the contact form.
+                $(form).submit(function(event) {
+                    // Stop the browser from submitting the form.
+                    event.preventDefault();
+                    
+                    if (validation()){
+                        // Serialize the form data.
+                        var formData = $(form).serialize();
+                        
+                        $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                        $(formMessages).addClass("alert alert-info");
+                        $(formMessages).text("Sending...");
+                        $(form).find("button[type=submit]").attr("disabled", true);
+                        
+                        // Submit the form using AJAX.
+                        $.ajax({
+                            type: "POST",
+                            url: $(form).attr("action"),
+                            data: formData
+                        })
+                        .done(function(response) {
+                            // Make sure that the formMessages div has the 'success' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-success");
+
+                            // Set the message text.
+                            $(formMessages).text(response);
+
+                            // Clear the form.
+                            //$("#InputName").val("");
+                            //$("#InputContact").val("");
+                            //$("#TextareaMessage").val("");
+                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
+                            $(form).find("button[type=submit]").attr("disabled", true);
+                        })
+                        .fail(function(data) {
+                            // Make sure that the formMessages div has the 'error' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-danger");
+                            $(form).find("button[type=submit]").attr("disabled", false);
+
+                            // Set the message text.
+                            if (data.responseText !== '') {
+                                $(formMessages).text(data.responseText);
+                            } else {
+                                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                            }
+                        });
+                    }
+                    
+                    
+                    
+                });
+                */
+                
+            });
+            
+            
+        
+        </script>
+
+        <!--#include file="_analytics.html" -->
+        
+    </body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Who is Jesus | Newcastle West Bible Fellowship</title>
+        <meta name="robots" content="index, follow" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/styles.css">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="64x64" href="static/icon_apple_64.png" />
+        <link rel="apple-touch-icon" sizes="181x181" href="static/icon_apple_181.png" />
+        <link rel="icon" type="image/png" sizes="181x181" href="static/icon_181.png" />
+        <link rel="icon" type="image/png" sizes="64x64" href="static/icon_64.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="static/icon_32.png" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <style>
+            .fullsize-bg-img {
+                height: 100vh;
+            }
+            .fullsize-bg-img > .background {
+                background-image: url("static/road.jpg");
+            }
+            #who-is-jesus > .container {
+                width: 90%;
+                height: 90%;
+                overflow: hidden;
+                text-align: center;
+            }
+        </style>
+    <body>
+        <div id="who-is-jesus" class="fullsize-bg-img container-fluid" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            <a class="brand-logo" href="./">
+                <img src="static/ncwbf-white.svg" alt="Newcastle West Bible Fellowship logo" />
+            </a>
+            
+            <!--#include file="_menu.html" -->
+            
+            <div class="container d-flex align-items-center justify-content-center">
+                <img src="static/JESUS.svg" style="max-width: 100%; max-height: 100%;"/>
+            </div>
+        </div>
+        <div class="container">
+            <p class="text-3-custom text-center">Who Is Jesus?</p>
+            <p>The understanding of Christ is hugely important. Most importantly because it relates to our decision that we have made to be in relationship with Christ.</p>
+            <p>But who is He? What sort of man is this?</p>
+            <p>"<strong>HE</strong> is the image of the invisible God, the firstborn over all creation." (Colossians 1:15) I can imagine local people everywhere when Jesus showed up talking, speculating, arguing, ideologising&hellip; Did you hear&hellip;, It is said of him that&hellip; Did you know&hellip;? Especially the religious people of the day, the teachers of the law. Wherever He was, if he opened His mouth or did something, He was the talk of the town.</p>
+            <p>When Jesus calms the storm in Matthew 8:27 the disciples said "Who can this be, that even the winds and the sea obey Him?"</p>
+            <p>Jesus was incomparable. We always try to compare public figures with similar people in history because we like to categorize in order to have a reference point.</p>
+            <p>Examples: a leader like Winston Churchill; a visionary like John F. Kennedy; a carer like Mother Theresa; a wise man like Ghandi&hellip;.</p>
+            <p>When the questions above are personalized, it becomes the most important question you and I will ever be asked or have to answer. Who is Jesus? Or more importantly who is Jesus to YOU? Jesus said, "I have come that they may have life, and that they may have it more abundantly." (John 10:10)</p>
+        </div>
+        
+        <div id="the-name" class="fullsize-bg-img container-fluid" data-parallax="true" data-speed="2">
+            <div class="background"></div>
+            <div class="container">
+                <h2 class="text-uppercase display-3 mb-5">THE NAME</h2>
+                <p class="text-center text-4-custom"><strong>For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.<br><br>John 3:16</strong></p>
+            </div>
+        </div>
+        
+        <div id="gospel-video" class="container">
+            <p class="text-3-custom text-center">The gospel of Jesus Christ</p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <!--
+                <iframe class="embed-responsive-item" width="853" height="480" src="https://www.youtube.com/embed/BVpLCnpuUYA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                -->
+                <video controls src="static/THE_GOSPEL_MATT_CHANDLER_SERMON_JAM.mp4" type="video/mp4" class="embed-responsive-item" poster="static/THE_GOSPEL_MATT_CHANDLER_SERMON_JAM.jpg" id="video-api">
+                    Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="static/THE_GOSPEL_MATT_CHANDLER_SERMON_JAM.mp4">download it</a> and watch it with your favorite video player!
+                </video>
+            </div>
+        </div>
+        
+        <div id="christs-humanity" class="bg-inverse text-white">
+            <div class="container text-center">
+                <h2 class="text-uppercase display-3 mb-5">CHRISTS HUMANITY GIVES US CONFIDENCE</h2>
+                <p class="">It seems very obvious to say that the deity of Christ gives us strength and confidence. He is all powerful, all-knowing and omnipresent. All authority in heaven and on earth is given to Him. What we tend to neglect is that Christ's humanity gives us as much confidence as His deity.</p>
+                <p class="">First of all Christ's humanity is not an emergency solution, God's last option to save humanity.</p>
+                <p class="">Man is made in the image of God and Jesus Christ is the perfection of that image. Therefore His humanity is the perfect sovereign will of God.</p>
+                <p class="">His humanity affirms us as humans and confirms that God has got a plan for mankind.</p>
+                <p class="">Furthermore, His perfect humanity shows us our full potential!! It is wrong to say, "I'm just human." Or, "They're only human." There is no "only" about it. Jesus has provided the wonderful potential of perfected humanity – and given us His Spirit to help us become like Him.</p>
+            </div>
+        </div>
+        <div id="salvation">
+            <div class="container">
+                <p class="text-3-custom text-center">Salvation</p>
+                <p>After reading the above we must ask "What must I do to be saved?" This question was asked of Paul from his jailer. The answer was simple, "Believe on the Lord Jesus Christ, and you will be saved." (Acts 16:30)</p>
+                <p>So how do you do that? Jesus answers that question in John 14:6, "Jesus said to him, &ldquo;I am the way, the truth, and the life. No one comes to the Father except through Me.&rdquo; So we must believe that "Whoever calls on the name of the Lord shall be saved." (Romans 10:13)</p>
+                <p>We'd love to hear if you made a decision or have more questions. Please let us know by clicking the button below.</p>
+                <div class="text-center">
+                    <a href="contact-us.shtml" class="btn btn-outline-primary text-uppercase mt-5">tell me more</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--#include file="_footer.shtml" -->
+        
+        <!-- _contact.html -->
+        
+        
+        
+        <script>
+            // After DOM load check height of the selector with height:100vh
+            // then set it to that selector
+            // when address bar hides on mobile, it will not resize
+            // recalculate only on orientationchange
+            //
+            function calcVH() {
+                var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+                document.getElementById("who-is-jesus").setAttribute("style", "height:" + vH + "px;");
+                document.getElementById("the-name").setAttribute("style", "height:" + vH + "px;");
+            }
+            calcVH();
+            window.addEventListener('onorientationchange', calcVH, true);
+        </script>
+        
+        
+        
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!--<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>-->
+        
+        
+        
+        
+        <script>
+            
+            var screen = parseInt($(window).height());
+            var parallaxElements;
+            
+            function draw() {
+                requestAnimationFrame(draw);
+                // Drawing code goes here
+                scrollEvent();
+            }
+            draw();
+            function scrollEvent(){
+                var scroll = $(window).scrollTop();
+                
+                if($(window).width())
+                    //$("div[data-parallax='true']").each(function(){
+                    $.each(parallaxElements,function(){
+                        //console.log( $(this).data("parallax") );
+                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
+                        var toppos = parseInt( $(this).offset().top - scroll );
+                        if ( toppos <= screen + 20) {
+                            if (bottompos > -20) {
+                                distance = (screen - bottompos) / $(this).data("speed");
+                                //console.log( $(this).attr("id") );
+                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
+                            }
+                        }
+                    });
+            }
+            
+            function findParallax(){
+                parallaxElements = $("div[data-parallax='true']")
+            }
+            
+            /*
+            function validation(){
+                var errors = false;
+                if (!$("#g-recaptcha-response").val()) {
+                    errors = true;
+                }
+                $("#ajax-contact > .form-group").each(function(){
+                    var warn = false;
+                    $(this).find("input, textarea").each(function(){
+                        if ($(this).val().length <= 1){
+                            errors = true;
+                            warn = true;
+                            $(this).addClass("form-control-warning");
+                        } else {
+                            warn = false;
+                            $(this).removeClass("form-control-warning");
+                        }
+                    });
+                    if (warn == true) {
+                        $(this).addClass("has-warning");
+                    } else {
+                        $(this).removeClass("has-warning");
+                    }
+                });
+                return !errors;
+            }
+            */
+            
+            $(document).ready(function(){
+                
+                findParallax();
+                
+                /*
+                $(window).resize(function() {
+                    // code to be executed on resize
+                }).resize();
+                */
+                
+                /*
+                $(window).scroll(function() {
+                    // code to be executed on scroll - heavy on performance
+                }).scroll();
+                */
+                
+                $("div.totop").on("click", function(){
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    return false;
+                });
+                /*
+                // Sending contact form using ajax technology
+                // Get the form and messages container
+                //
+                var form = $("#ajax-contact"),
+                    formMessages = $("#form-messages");
+                
+                // Set up an event listener for the contact form.
+                $(form).submit(function(event) {
+                    // Stop the browser from submitting the form.
+                    event.preventDefault();
+                    
+                    if (validation()){
+                        // Serialize the form data.
+                        var formData = $(form).serialize();
+                        
+                        $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                        $(formMessages).addClass("alert alert-info");
+                        $(formMessages).text("Sending...");
+                        $(form).find("button[type=submit]").attr("disabled", true);
+                        
+                        // Submit the form using AJAX.
+                        $.ajax({
+                            type: "POST",
+                            url: $(form).attr("action"),
+                            data: formData
+                        })
+                        .done(function(response) {
+                            // Make sure that the formMessages div has the 'success' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-success");
+
+                            // Set the message text.
+                            $(formMessages).text(response);
+
+                            // Clear the form.
+                            //$("#InputName").val("");
+                            //$("#InputContact").val("");
+                            //$("#TextareaMessage").val("");
+                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
+                            $(form).find("button[type=submit]").attr("disabled", true);
+                        })
+                        .fail(function(data) {
+                            // Make sure that the formMessages div has the 'error' class.
+                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).addClass("alert alert-danger");
+                            $(form).find("button[type=submit]").attr("disabled", false);
+
+                            // Set the message text.
+                            if (data.responseText !== '') {
+                                $(formMessages).text(data.responseText);
+                            } else {
+                                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                            }
+                        });
+                    }
+                    
+                    
+                    
+                });
+                */
+            });
+            
+        </script>
+
+        <!--#include file="_analytics.html" -->
+
+    </body>
+</html>

@@ -1,0 +1,232 @@
+# Prevent directory listing where no index.php or index.html is set. Permit SSI on your server.
+Options All -Indexes +IncludesNOEXEC
+
+
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+	order allow,deny
+	deny from all
+</Files>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	# Redirect from the `http://` to the `https://` version of the URL.
+	# https://wiki.apache.org/httpd/RewriteHTTPToHTTPS
+	RewriteCond %{HTTPS} !on
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	
+	# Redirect to domain with www.
+	RewriteCond %{HTTP_HOST} !^www\. [NC]
+	RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
+	
+	# Redirect index.shtml to domain
+	RewriteRule ^index\.shtml$ / [NC,L,R=301]
+	
+</IfModule>
+
+## BLOCK KNOWN SPAMMERS OR BOTS
+#
+RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Bot\ mailto:craftbot@yahoo.com [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ChinaClaw [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Custo [OR]
+RewriteCond %{HTTP_USER_AGENT} ^DISCo [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Download\ Demon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^eCatch [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EirGrabber [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Express\ WebPictures [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EyeNetIE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^FlashGet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GetRight [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GetWeb! [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Go!Zilla [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Go-Ahead-Got-It [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GrabNet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Grafula [OR]
+RewriteCond %{HTTP_USER_AGENT} ^HMView [OR]
+RewriteCond %{HTTP_USER_AGENT} HTTrack [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Stripper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Sucker [OR]
+RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^InterGET [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Internet\ Ninja [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JetCar [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JOC\ Web\ Spider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^larbin [OR]
+RewriteCond %{HTTP_USER_AGENT} ^libghttp [OR]
+RewriteCond %{HTTP_USER_AGENT} ^libwww-perl [OR]
+RewriteCond %{HTTP_USER_AGENT} ^LeechFTP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mass\ Downloader [OR]
+RewriteCond %{HTTP_USER_AGENT} ^MIDown\ tool [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Missigua [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mister\ PiX [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Navroad [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NearSite [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetAnts [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Net\ Vampire [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetZIP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Octopus [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Explorer [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Navigator [OR]
+RewriteCond %{HTTP_USER_AGENT} ^PageGrabber [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Papa\ Foto [OR]
+RewriteCond %{HTTP_USER_AGENT} ^pavuk [OR]
+RewriteCond %{HTTP_USER_AGENT} ^pcBrowser [OR]
+RewriteCond %{HTTP_USER_AGENT} ^RealDownload [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ReGet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SiteSnagger [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SmartDownload [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SuperBot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SuperHTTP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Surfbot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^tAkeOut [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Teleport\ Pro [OR]
+RewriteCond %{HTTP_USER_AGENT} ^VoidEYE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Image\ Collector [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Sucker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebAuto [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebCopier [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebFetch [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebGo\ IS [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebLeacher [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebReaper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebSauger [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Website\ eXtractor [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Website\ Quester [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebStripper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebWhacker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebZIP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Widow [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WWWOFFLE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus
+RewriteRule .* - [F]
+
+# Disable server signature
+ServerSignature Off
+
+
+# X-Frame-Options controls whether your site can be framed, protecting against clickjacking attacks CSRF. 
+# It has been superseded by Content Security Policy's frame-ancestors directive, but should still be used for now.
+# X-Frame-Options: DENY									The page cannot be displayed in a frame, regardless of the site attempting to do so.
+# X-Frame-Options: SAMEORIGIN							The page can only be displayed in a frame on the same origin as the page itself.
+# X-Frame-Options: ALLOW-FROM https://example.com/		The page can only be displayed in a frame on the specified origin.
+<IfModule mod_headers.c> 
+	Header set X-Frame-Options DENY
+</IfModule>
+
+
+# X-XSS-Protection protects against reflected cross-site scripting (XSS) attacks in IE and Chrome, 
+# but has been superseded by Content Security Policy. It can still be used to protect users of older web browsers.
+# "1" Enables XSS filtering (usually default in browsers). If a cross-site scripting attack is detected, the browser will sanitize the page (remove the unsafe parts).
+# "1; mode=block" Enables XSS filtering. Rather than sanitizing the page, the browser will prevent rendering of the page if an attack is detected.
+<IfModule mod_headers.c> 
+  Header set X-XSS-Protection "1; mode=block" 
+</IfModule>
+
+
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+	#The following line is enough for .js and .css
+    AddOutputFilter DEFLATE js css svg
+	
+	#The following line also enables compression by file content type, for the following list of Content-Type:s
+	AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE image/svg+xml
+	
+	<FilesMatch "\.(js|css|svg|gz)$">
+		Header append Vary: Accept-Encoding
+	</FilesMatch>
+</ifmodule>
+# END GZIP
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+	ExpiresActive On
+	
+# Perhaps better to whitelist expires rules? Perhaps.
+	ExpiresDefault							"access plus 1 hour"
+	
+# Data
+	ExpiresByType text/html					"access plus 1 day"
+	
+# Favicon (cannot be renamed)
+	ExpiresByType image/x-icon				"access plus 1 week"
+	
+# Media: images, video, audio
+	ExpiresByType image/jpg					"access plus 2 weeks"
+	ExpiresByType image/jpeg				"access plus 2 weeks"
+	ExpiresByType image/png					"access plus 2 weeks"
+	ExpiresByType image/gif					"access plus 2 weeks"
+	ExpiresByType image/svg+xml				"access plus 1 week"
+	ExpiresByType video/mp4					"access plus 1 month"
+    
+# CSS and JavaScript
+	ExpiresByType text/css					"access plus 7 days"
+	ExpiresByType text/javascript			"access plus 7 days"
+	ExpiresByType application/javascript	"access plus 7 days"
+</IfModule>
+## EXPIRES CACHING ##
+
+## Cache-Control
+<IfModule mod_headers.c>
+	<FilesMatch "\\.(css|js)$">
+		# 86400 - 1 day, 604800 - 1 week, 1209600 - 2 weeks, 2592000 - 1 month
+		Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+    <FilesMatch "\\.(jpg|jpeg|svg|png)$">
+		Header set Cache-Control "max-age=1209600, public"
+    </FilesMatch>
+</IfModule>
+
+
+
+
+# 301 Redirect Old File
+# RewriteCond %{REQUEST_URI} newhere.php$ [NC]
+# RewriteRule ^(.*)$ /index.shtml? [R=301,L]
+
+Redirect 301 /index.old https://www.ncwbiblefellowship.com/
+# Redirect 301 /?v=agrishow http://www.ncwbiblefellowship.com/
+
+
+# 301 redirect any folder where end file is elders.php
+# RewriteCond %{REQUEST_URI} ^/elders.php$ [NC]
+# RewriteRule ^(.*)$ /who-we-are.shtml? [R=301,L]
+
+
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^(www\.)?ncwbiblefellowship\.com [NC]
+RewriteCond %{QUERY_STRING} v
+RewriteRule .* - [G,L]
+
+
+# .* means that it will do this for any URL on your site (as long as the URI query condition of having "v" in the query string is met)
+# - means to leave the URL alone and not change it
+# G means "Gone" -- send the 410 status
+# L means "Last" -- so that no other rewrite rules are executed 
+
+
+
+# Simple redirects samples / 410 - Gone
+# Redirect 410 /subfolder_or_not/titleurl.html
+Redirect 410 /about.php
+Redirect 410 /elders.php
+# Redirect 410 /blog
+# Redirect 410 /index.old
+
+
+#<Files 403.shtml>
+# order allow,deny
+# allow from all
+#</Files>
