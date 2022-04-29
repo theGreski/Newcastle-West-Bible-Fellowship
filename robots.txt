@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /aboutus/
+Disallow: /contact/
+Disallow: /gospel/
+Disallow: /news/
+Disallow: /ultimate/
+Disallow: /whatwedo/
+Disallow: /audio/
+Disallow: /elders/
+Disallow: /fancybox/
+Disallow: /flash/
+Disallow: /gallery/
+Disallow: /getid3/
+Disallow: /gospel/.swf$
+Disallow: /messages/
+Disallow: /pics/
+Disallow: /resources/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /gregor/
+Disallow: /karolinka/
+Disallow: /goodnews4u.net/
+Allow: /
+
+SITEMAP: http://www.ncwbiblefellowship.com/sitemap.txt
