@@ -1,0 +1,95 @@
+[15-May-2013 19:57:47 Europe/Berlin] PHP Warning:  POST Content-Length of 14602041 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-May-2013 20:10:10 Europe/Berlin] PHP Warning:  POST Content-Length of 14602041 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[15-May-2013 20:12:33 Europe/Berlin] PHP Warning:  POST Content-Length of 14602041 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[21-Aug-2013 17:50:01 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20090626
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[21-Aug-2013 17:50:01 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/suhosin.so: undefined symbol: output_globals in Unknown on line 0
+[21-Aug-2013 17:50:01 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20090626
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[21-Aug-2013 17:50:33 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20090626
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[21-Aug-2013 17:50:33 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/suhosin.so: undefined symbol: output_globals in Unknown on line 0
+[21-Aug-2013 17:50:33 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20090626
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[19-Aug-2014 15:56:34 Europe/Berlin] PHP Fatal error:  Unsupported operand types in /home/cjurdtcw/public_html/scripts/uploadify/uploadifym.php on line 37
+[19-Aug-2014 15:57:21 Europe/Berlin] PHP Fatal error:  Unsupported operand types in /home/cjurdtcw/public_html/scripts/uploadify/uploadifym.php on line 37
+[19-Aug-2014 15:59:21 Europe/Berlin] PHP Fatal error:  Unsupported operand types in /home/cjurdtcw/public_html/scripts/uploadify/uploadifym.php on line 35
+[21-Aug-2014 11:52:00 Europe/Berlin] PHP Warning:  POST Content-Length of 14602049 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[21-Aug-2014 12:10:52 Europe/Berlin] PHP Warning:  POST Content-Length of 23607389 bytes exceeds the limit of 16777216 bytes in Unknown on line 0
+[19-Nov-2015 06:52:05 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[19-Nov-2015 06:52:05 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[19-Nov-2015 06:52:06 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[19-Nov-2015 06:52:06 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[19-Nov-2015 06:52:07 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[19-Nov-2015 06:52:07 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[07-Dec-2015 21:47:17 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[07-Dec-2015 21:47:17 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[07-Dec-2015 21:47:17 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[07-Dec-2015 21:47:17 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[07-Dec-2015 21:47:18 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[07-Dec-2015 21:47:18 Europe/Berlin] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[26-Jun-2016 13:46:00 Europe/Berlin] PHP Warning:  PHP Startup: XCache: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
