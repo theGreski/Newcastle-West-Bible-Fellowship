@@ -1,0 +1,133 @@
+﻿Installation and usage
+
+1.Download the zip file http://wpaudioplayer.com/standalone/
+2.Extract and upload the files to your server (only two files are required: audio-player.js and player.swf)
+3.Include the audio-player.js file in the HEAD section of your html page
+4.Still in the HEAD section, setup Audio Player as seen in the example below (the only required option is width)
+5.To insert a player on the page, place an HTML element (a P tag in the example but it can be anything) and give it a unique ID
+6.This element will be replaced with a player. If the browser doesn’t support Audio Player, the element will not be replaced so use it to show alternative content (maybe a message telling the user to download Flash)
+7.Insert the script tag after the element as shown below
+
+Example
+
+Ensure you replace “http://yoursite.com/path/to” with the correct paths to all files.
+
+01.<html>  
+02.    <head>  
+03.        <title>Your website</title>  
+04.  
+05.        ...   
+06.  
+07.        <script type="text/javascript" src="path/to/audio-player.js"></script>  
+08.        <script type="text/javascript">  
+09.            AudioPlayer.setup("http://yoursite.com/path/to/player.swf", {   
+10.                width: 290   
+11.            });   
+12.        </script>  
+13.  
+14.    </head>  
+15.    <body>  
+16.  
+17.        <p id="audioplayer_1">Alternative content</p>  
+18.        <script type="text/javascript">  
+19.        AudioPlayer.embed("audioplayer_1", {soundFile: "http://yoursite.com/path/to/mp3_file.mp3"});   
+20.        </script>  
+21.  
+22.        <p id="audioplayer_2">Alternative content</p>  
+23.        <script type="text/javascript">  
+24.        AudioPlayer.embed("audioplayer_2", {soundFile: "http://yoursite.com/path/to/mp3_file_2.mp3"});   
+25.        </script>  
+26.  
+27.    </body>  
+28.</html>  
+
+
+Configuration
+
+You can configure Audio Player with the setup call in the HEAD section like this:
+
+01.<script type="text/javascript" src="path/to/audio-player.js"></script>  
+02.<script type="text/javascript">  
+03.    AudioPlayer.setup("http://yoursite.com/path/to/player.swf", {   
+04.        width: 290,   
+05.        initialvolume: 100,   
+06.        transparentpagebg: "yes",   
+07.        left: "000000",   
+08.        lefticon: "FFFFFF"   
+09.    });   
+10.</script>  
+
+You can configure each separate player using the embed call like this:
+
+01.<script type="text/javascript">  
+02.AudioPlayer.embed("audioplayer_1", {   
+03.    soundFile: "http://yoursite.com/path/to/mp3_file.mp3",   
+04.    titles: "Title",   
+05.    artists: "Artist name",   
+06.    autostart: "yes"   
+07.});   
+08.</script>  
+
+To load multiple files
+
+Simply set soundFile to a comma delimited list of mp3 files. Optionally, you can also provide a comma delimited list of titles and artists:
+
+01.<script type="text/javascript">  
+02.AudioPlayer.embed("audioplayer_1", {   
+03.    soundFile: "http://yoursite.com/path/to/mp3_file_1.mp3,http://yoursite.com/path/to/mp3_file_2.mp3",   
+04.    titles: "Title 1,Title 2",   
+05.    artists: "Artist name 1,Artist name 2"   
+06.});   
+07.</script>  
+
+List of options
+
+Tracks
+
+Option 		Default 			Description 
+soundFile 	required 			comma-delimited list of mp3 files 
+titles 		overrides ID3 information 	comma-delimited list of titles 
+artists 	overrides ID3 information 	comma-delimited list of artists 
+
+Options
+
+Option 		Default 			Description 
+autostart 	no 				if yes, player starts automatically 
+loop 		no 				if yes, player loops 
+animation 	yes 				if no, player is always open 
+remaining 	no 				if yes, shows remaining track time rather than ellapsed time 
+noinfo 		no 				if yes, disables the track information display 
+initialvolume 	60 				initial volume level (from 0 to 100) 
+buffer 		5 				buffering time in seconds 
+encode 		no 				indicates that the mp3 file urls are encoded 
+checkpolicy 	no 				tells Flash to look for a policy file when loading mp3 files
+						(this allows Flash to read ID3 tags from files hosted on a different domain) 
+rtl 		no 				switches the layout to RTL (right to left) for Hebrew and Arabic languages 
+
+Flash player options
+
+Option 		Default 			Description 
+width 		required 			width of the player. e.g. 290 (290 pixels) or 100% 
+transparentpagebg no 				if yes, the player background is transparent (matches the page background) 
+pagebg 		NA 				player background color (set it to your page background when transparentbg is set to ‘no’) 
+
+Colour scheme options
+
+All colour codes must be 6-digit HEX codes without ‘#’ or ’0x’ in front.
+
+Option 		Default 			Description 
+bg 		E5E5E5 				Background 
+leftbg 		CCCCCC 				Speaker icon/Volume control background 
+lefticon 	333333 				Speaker icon 
+voltrack 	F2F2F2 				Volume track 
+volslider 	666666 				Volume slider 
+rightbg 	B4B4B4 				Play/Pause button background 
+rightbghover 	999999 				Play/Pause button background (hover state) 
+righticon 	333333 				Play/Pause icon 
+righticonhover 	FFFFFF 				Play/Pause icon (hover state) 
+loader 		009900 				Loading bar 
+track 		FFFFFF 				Loading/Progress bar track backgrounds 
+tracker 	DDDDDD 				Progress track 
+border 		CCCCCC 				Progress bar border 
+skip 		666666 				Previous/Next skip buttons 
+text 		333333 				Text 
