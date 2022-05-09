@@ -66,15 +66,15 @@
             
         </div>
         <div id="new-here" class="container">
-            <!--
+            
 			<p class="text-uppercase lead">Going to a new place for this first time can be challenging. Let us make you feel welcome!</p>
             <p>We've made it our priority to make you feel welcome, comfortable and loved. Having an idea of what to expect can help.</p>
             <p>Newcastle West Bible Fellowship is made of ordinary people who worship an extraordinary God. As followers of Jesus we seek to know the Love of God, Learn of Him, and Live a life committed to serving Him and others.</p>
             <p>People from all walks of life are welcome here, regardless of where they are in their spiritual journey.</p>
-            <p>Our Bible Preaching starts at either 11:15am on Sundays at North Quay in Newcastle West, Co. Limerick. Come a few minutes early and grab a cup of tea or coffee. If you have kids, just ask one of our greeters for information on avaliable activities.</p>
-			-->
+            <p>Our Bible Preaching starts at either 11:30am on Sundays at North Quay in Newcastle West, Co. Limerick. Come a few minutes early and grab a cup of tea or coffee. If you have kids, just ask one of our greeters for information on avaliable activities.</p>
 			
-			<p class="text-uppercase lead">Due to the Covid-19 situation, all of the Public meetings and Coffee morning at NCW Bible Fellowship are currently suspended until further notice.</p>
+			
+			<!--<p class="text-uppercase lead">Due to the Covid-19 situation, all of the Public meetings and Coffee morning at NCW Bible Fellowship are currently suspended until further notice.</p>-->
 			<p>
 				As a nation we have all been affected by the current covid-19 emergency. Almost overnight 
 				our lives were changed, and many people have been left with what they feel is an uncertain 
@@ -154,14 +154,14 @@
                         <dt class="col-lg-3">Sunday</dt>
                         <dd class="col-lg-9">10:30 AM - Breaking of Bread</dd>
                     </dl>
-                    <dl class="row" itemprop="openingHours" content="Su 11:45-12:45">
+                    <dl class="row" itemprop="openingHours" content="Su 11:30-12:30">
                         <dt class="col-lg-3"></dt>
-                        <dd class="col-lg-9">11:45 AM - Family Service</dd>
+                        <dd class="col-lg-9">11:30 AM - Family Service</dd>
                     </dl>
-                    <dl class="row" itemprop="openingHours" content="Su 19:00-20:00">
+                    <!--<dl class="row" itemprop="openingHours" content="Su 19:00-20:00">
                         <dt class="col-lg-3"></dt>
                         <dd class="col-lg-9">7:00 PM - Evening Service</dd>
-                    </dl>
+                    </dl>-->
                     <dl class="row" itemprop="openingHours" content="Th 19:00-20:00">
                         <dt class="col-lg-3">Thursday</dt>
                         <dd class="col-lg-9">7:00 PM - Prayer and Devotional</dd>
@@ -169,7 +169,7 @@
                     <p class="lead text-uppercase">Phones</p>
                     <div class="row">
                         <div class="col-lg-4" itemprop="telephone" content="+353857381970"><a href="tel:0857381970">085&nbsp;7381970</a></div>
-                        <div class="col-lg-4" itemprop="telephone" content="+353868744182"><a href="tel:0868744182">086&nbsp;8744182</a></div>
+                        <!--<div class="col-lg-4" itemprop="telephone" content="+353868744182"><a href="tel:0868744182">086&nbsp;8744182</a></div>-->
                         <div class="col-lg-4" itemprop="telephone" content="+353864468535"><a href="tel:0864468535">086&nbsp;4468535</a></div>
                     </div>
                     <p class="lead text-uppercase">Location</p>
@@ -362,7 +362,7 @@
 						dateStart: "2020-06-03",
 						dateEnd: "2020-07-02", 		// Always add 1 day eg. to cover 15Aug type 16Aug
 						url: "summer_2020.jpg",			// file name of the picture to display
-						caption: ""
+						caption: "test"
 					}
 					
 					if (Date.now() >= Date.parse(timed_modal.dateStart) && Date.now() <= Date.parse(timed_modal.dateEnd) ) {

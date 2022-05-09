@@ -49,14 +49,14 @@
                     <a href="tel:0857381970">085&nbsp;738&nbsp;1970</a>
                 </div>
             </div>
-            <div class="media mb-4">
+            <!--<div class="media mb-4">
                 <img class="d-flex align-self-center mr-3 rounded-circle" src="static/andy.jpg" alt="Andrew">
                 <div class="media-body align-self-center">
                     <p class="text-4-custom text-uppercase mb-1"><strong>Andrew &amp; Gillian Shanks</strong></p>
                     Serving the Lord in Newcastle West, Ireland since 2007<br>
                     <a href="tel:0868744182">086&nbsp;874&nbsp;4182</a>
                 </div>
-            </div>
+            </div>-->
             <div class="media">
                 <img class="d-flex align-self-center mr-3 rounded-circle" src="static/greg.jpg" alt="Greg">
                 <div class="media-body align-self-center">
