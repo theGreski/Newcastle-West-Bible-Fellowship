@@ -35,7 +35,7 @@
                 height: 100vh;
             }
             #welcome > .background {
-                background-image: url("static/welcome2a.jpg");
+                background-image: url("static/welcome2aXXXXXXX.jpg");
             }
 			video, iframe {
 				width: 100% !important;
