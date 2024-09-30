@@ -6,10 +6,10 @@
                 <img src="static/ncwbf.svg" width="350px" height="85px" alt="Newcastle West Bible Fellowship logo" class="footer-logo mb-5"/>
             </div>
             <div class="col-sm-8">
-                <dl class="row justify-content-between">
+                <!--<dl class="row justify-content-between">
                     <dt class="col-1"><img src="static/logo-bg.svg" width="2em" height="2em" alt="Eggizo App" class="eggizo-logo"></dt>
                     <dd class="col-10">Get our mobile <a href="https://app-dot-eggizoapp.appspot.com/" target="_blank">Eggizo App</a>!</dd>
-                </dl>
+                </dl>-->
                 <dl class="row justify-content-between">
                     <dt class="col-1"><img src="static/facebook-logo.svg" width="2em" height="2em" alt="Facebook logo" class="facebook-logo"></dt>
                     <dd class="col-10">Find Us on <a href="http://www.facebook.com/ncwbf">Facebook</a></dd>
