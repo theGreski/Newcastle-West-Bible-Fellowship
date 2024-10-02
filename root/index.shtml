@@ -43,14 +43,6 @@
 				height: auto !important;
 			}
         </style>
-		<!--
-		<link rel="prefetch" href="static/whatitslike2.jpg">
-		<link rel="prefetch" href="static/what-we-believe.jpg">
-		<link rel="prefetch" href="static/contact_us-4.png">
-		<link rel="prefetch" href="static/road.jpg">
-		<link rel="prefetch" href="static/whoweare3.jpg">
-		<link rel="prefetch" href="static/youngage1.jpg">
-		-->
     </head>
     <body>
         <div id="welcome" class="fullsize-bg-img container-fluid" data-parallax="true" data-speed="2">
@@ -74,7 +66,7 @@
             <p>People from all walks of life are welcome here, regardless of where they are in their spiritual journey.</p>
             <p>Our Bible Preaching starts at either 11:30am on Sundays at North Quay in Newcastle West, Co. Limerick. Come a few minutes early and grab a cup of tea or coffee. If you have kids, just ask one of our greeters for information on avaliable activities.</p>
 			
-			
+			<!-- COVID note -->
 			<!--<p class="text-uppercase lead">Due to the Covid-19 situation, all of the Public meetings and Coffee morning at NCW Bible Fellowship are currently suspended until further notice.</p>-->
 			<!--<p>
 				As a nation we have all been affected by the current covid-19 emergency. Almost overnight 
@@ -89,7 +81,7 @@
 			</p>
 			<p>Although we are currently closed for Public meetings the church is still functioning and if we can be of any assistance to you, if we can pray for you or if you would like to receive a free Bible please get in touch with us.</p>
 			-->
-<p>Please click on the links below to some Video and Audio files which we trust will be a help to you.</p>
+            <p>Please click on the links below to some Video and Audio files which we trust will be a help to you.</p>
 			
 			<div class="row">
                 <div class="col text-center">
@@ -108,9 +100,6 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/h0nXdCmYFiA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-		
-		
-		
 		</div>
         
         <div id="get-connected" class="fullsize-bg-img">
@@ -224,10 +213,6 @@
         
         <!--#include file="_footer.shtml" -->
         
-        
-        
-        
-        
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -298,71 +283,6 @@
 					
 				}, 3000);
 				
-				
-				
-				
-				
-                /*
-                // Sending contact form using ajax technology
-                // Get the form and messages container
-                //
-                var form = $("#ajax-contact"),
-                    formMessages = $("#form-messages");
-                
-                // Set up an event listener for the contact form.
-                $(form).submit(function(event) {
-                    // Stop the browser from submitting the form.
-                    event.preventDefault();
-                    
-                    if (validation()){
-                        // Serialize the form data.
-                        var formData = $(form).serialize();
-                        
-                        $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
-                        $(formMessages).addClass("alert alert-info");
-                        $(formMessages).text("Sending...");
-                        $(form).find("button[type=submit]").attr("disabled", true);
-                        
-                        // Submit the form using AJAX.
-                        $.ajax({
-                            type: "POST",
-                            url: $(form).attr("action"),
-                            data: formData
-                        })
-                        .done(function(response) {
-                            // Make sure that the formMessages div has the 'success' class.
-                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
-                            $(formMessages).addClass("alert alert-success");
-
-                            // Set the message text.
-                            $(formMessages).text(response);
-
-                            // Clear the form.
-                            //$("#InputName").val("");
-                            //$("#InputContact").val("");
-                            //$("#TextareaMessage").val("");
-                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
-                            $(form).find("button[type=submit]").attr("disabled", true);
-                        })
-                        .fail(function(data) {
-                            // Make sure that the formMessages div has the 'error' class.
-                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
-                            $(formMessages).addClass("alert alert-danger");
-                            $(form).find("button[type=submit]").attr("disabled", false);
-
-                            // Set the message text.
-                            if (data.responseText !== '') {
-                                $(formMessages).text(data.responseText);
-                            } else {
-                                $(formMessages).text('Oops! An error occured and your message could not be sent.');
-                            }
-                        });
-                    }
-                    
-                    
-                    
-                });
-                */
             });
             
         </script>
