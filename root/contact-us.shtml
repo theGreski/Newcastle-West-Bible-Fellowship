@@ -234,7 +234,6 @@
                     });
                     if (warn == true) {
                         $(this).addClass("has-warning");
-                        console.log("Warning on ", $(this));
                     } else {
                         $(this).removeClass("has-warning");
                     }
@@ -277,10 +276,8 @@
                 $(form).submit(function(event) {
                     // Stop the browser from submitting the form.
                     event.preventDefault();
-                    console.log("form submit");
-
+                    
                     if (validation()){
-                        console.log("no erors");
                         
                         // Serialize the form data.
                         var formData = $(form).serialize();
@@ -320,8 +317,6 @@
                                 $(formMessages).text('Oops! An error occured and your message could not be sent.');
                             }
                         });
-                    } else {
-                        console.log("Errors found");
                     }
                     
                 });
