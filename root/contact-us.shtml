@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="row form-group">
-                    <label for="InputCaptcha" class="col-lg-3 col-form-label text-lg-right">Answer the question. <span id="captcha"></span> = <span class="text-danger">*</span></label>
+                    <label for="InputCaptcha" class="col-lg-3 col-form-label text-lg-right">Answer the question. <span class="text-danger">*</span> <span id="captcha"></span> =</label>
                     <div class="col">
                         <input type="text" class="form-control" id="InputCaptcha" name="InputCaptcha" required>
                     </div>
