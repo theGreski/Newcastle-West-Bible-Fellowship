@@ -85,17 +85,19 @@
         
         <script>
             
-            draw();
             
-            // After DOM load check height of the selector with height:100vh
-            // then set it to that selector
-            // when address bar hides on mobile, it will not resize
-            // recalculate only on orientationchange
-            //
-            window.addEventListener('orientationchange', () => {calcVH("whatitslike")}, true);
             
             $(document).ready(function(){
                 
+                draw();
+            
+                // After DOM load check height of the selector with height:100vh
+                // then set it to that selector
+                // when address bar hides on mobile, it will not resize
+                // recalculate only on orientationchange
+                //
+                window.addEventListener('orientationchange', () => {calcVH("whatitslike")}, true);
+
                 calcVH("whatitslike");
                 
                 enableClickToTop();
