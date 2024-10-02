@@ -92,7 +92,7 @@
             // when address bar hides on mobile, it will not resize
             // recalculate only on orientationchange
             //
-            window.addEventListener('orientationchange', calcVH("whatitslike"), true);
+            window.addEventListener('orientationchange', () => {calcVH("whatitslike")}, true);
             
             $(document).ready(function(){
                 
