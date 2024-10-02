@@ -339,33 +339,7 @@
             
             window.addEventListener('onorientationchange', calcVH, true);
             
-            /*
-            function validation(){
-                var errors = false;
-                if (!$("#g-recaptcha-response").val()) {
-                    errors = true;
-                }
-                $("#ajax-contact > .form-group").each(function(){
-                    var warn = false;
-                    $(this).find("input, textarea").each(function(){
-                        if ($(this).val().length <= 1){
-                            errors = true;
-                            warn = true;
-                            $(this).addClass("form-control-warning");
-                        } else {
-                            warn = false;
-                            $(this).removeClass("form-control-warning");
-                        }
-                    });
-                    if (warn == true) {
-                        $(this).addClass("has-warning");
-                    } else {
-                        $(this).removeClass("has-warning");
-                    }
-                });
-                return !errors;
-            }
-            */
+            
             $(document).ready(function(){
                 
                 calcVH();

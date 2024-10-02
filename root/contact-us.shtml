@@ -98,7 +98,6 @@
                     </div>
                 </div>
                 
-                <!--<div id="reCAPTCHA" class="g-recaptcha d-flex justify-content-center" data-sitekey="6LexBxAUAAAAAKTmQBuAPSQDaN_fNkbVvU4IL2pr"></div>-->
                 <span class='fname'>
                     <input type='text' name='fname' placeholder='fname' autocomplete='off'>
                 </span>
