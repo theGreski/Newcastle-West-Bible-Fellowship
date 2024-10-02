@@ -124,13 +124,18 @@
         
         
         <script>
-            function calcVH() {
-                var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-                document.getElementById("who-is-jesus").setAttribute("style", "height:" + vH + "px;");
-                document.getElementById("the-name").setAttribute("style", "height:" + vH + "px;");
-            }
-            calcVH();
-            window.addEventListener('orientationchange', calcVH, true);
+            //function calcVH() {
+            //    var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+            //    document.getElementById("who-is-jesus").setAttribute("style", "height:" + vH + "px;");
+            //    document.getElementById("the-name").setAttribute("style", "height:" + vH + "px;");
+            //}
+            calcVH("who-is-jesus", true);
+            calcVH("the-name", true);
+            //window.addEventListener('orientationchange', calcVH, true);
+            window.addEventListener('orientationchange', () => {
+                calcVH("who-is-jesus", true);
+                calcVH("the-name", true);
+            }, true);
 
             var screen = parseInt($(window).height());
             var parallaxElements;
