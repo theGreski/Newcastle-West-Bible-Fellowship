@@ -114,8 +114,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <!--<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>-->
-
+        
         <link rel="stylesheet" href="static/styles.css">
         
         <style>
@@ -221,9 +220,6 @@
             
             function validation(){
                 var errors = false;
-                //if (!$("#g-recaptcha-response").val()) {
-                //    errors = true;
-                //}
                 $("#ajax-contact > .form-group").each(function(){
                     var warn = false;
                     $(this).find("input, textarea").each(function(){
@@ -238,6 +234,7 @@
                     });
                     if (warn == true) {
                         $(this).addClass("has-warning");
+                        console.log("Warning on ", $(this));
                     } else {
                         $(this).removeClass("has-warning");
                     }
@@ -278,7 +275,7 @@
                     event.preventDefault();
                     
                     if (validation()){
-                        
+                        console.log("no erors");
                         
                         // Serialize the form data.
                         var formData = $(form).serialize();
