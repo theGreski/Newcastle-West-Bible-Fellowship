@@ -4,7 +4,7 @@
     if ($_SERVER["REQUEST_METHOD"] !== "POST") {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please try again later!";
+        echo "Oops! There was a problem with your submission. Please try again later! POST";
         die();
     }
 
@@ -12,7 +12,7 @@
     if (!$_POST['fname'] || strlen($_POST['fname'] > 0)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please try again later!";
+        echo "Oops! There was a problem with your submission. Please try again later! fname";
         die();
     }
 
