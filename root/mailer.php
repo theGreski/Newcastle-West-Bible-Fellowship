@@ -53,7 +53,7 @@
 
     // Build the email.
     $headers = "From: donotreply@ncwbiblefellowship.com" . "\r\n";
-    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (filter_var($contact, FILTER_VALIDATE_EMAIL)) {
         $headers = "From: " . $name . " <" . $contact . ">" . "\r\n";
         $headers.= "Reply-To: " . $name . " <" . $contact . ">" . "\r\n";
     }
