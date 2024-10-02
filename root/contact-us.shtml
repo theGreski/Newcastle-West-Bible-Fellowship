@@ -88,8 +88,17 @@
                         <textarea class="form-control col" id="TextareaMessage" name="TextareaMessage" rows="6" required></textarea>
                     </div>
                 </div>
+                <div class="row form-group"></div>
+                    <label for="InputCaptcha" class="col-lg-3 col-form-label text-lg-right">Answer the question. <span id="captcha"></span> = <span class="text-danger">*</span></label>
+                    <div class="col">
+                        <input type="text" class="form-control" id="InputCaptcha" name="InputCaptcha" required>
+                    </div>
+                </div>
                 
-                <div id="reCAPTCHA" class="g-recaptcha d-flex justify-content-center" data-sitekey="6LexBxAUAAAAAKTmQBuAPSQDaN_fNkbVvU4IL2pr"></div>
+                <!--<div id="reCAPTCHA" class="g-recaptcha d-flex justify-content-center" data-sitekey="6LexBxAUAAAAAKTmQBuAPSQDaN_fNkbVvU4IL2pr"></div>-->
+                <span class='fname'>
+                    <input type='text' name='fname' placeholder='fname' autocomplete='off'>
+                </span>
                 <div id="form-messages" role="alert"></div>
                 <button type="submit" id="submit" class="btn btn-primary btn-lg btn-block mt-3">Send</button>
             </form>
@@ -102,62 +111,65 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
+        <!--<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>-->
 
         <link rel="stylesheet" href="static/styles.css">
         
         <style>
+            .fname {
+				display: none;
+			}
             #contact-us > .background {
                 background-image: url("static/contact_us-4.png");
                 
             }
             
-#contact-us + div img {
-    width: 124px;
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.2), 1px 1px 7px rgba(0,0,0,0.3);
-}
-#submit {
-  box-sizing: border-box;
-  border: 1px solid transparent;
-  border-color: #0275d8;
-  border-radius: 5px;
-  text-align: center;
-  margin: auto;
-  background-color: #0275d8;
-  height: 3.4rem;
-  min-width: 3.4rem;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition: all 0.4s linear;
-}
-#submit.sending-progress {
-    padding: 0;
-    width: 3.4rem;
-    color: transparent;
-    border-radius: 50%;
-    background-color: #ffffff;
-    opacity: 1;
-    animation: pulse 1.5s infinite linear;
-}
-#submit.sending-success {
-    color: #fff;
-    background-color: rgb(76,217,100);
-    border-color: rgb(56,197,80);
-    opacity: 1;
-}
+            #contact-us + div img {
+                width: 124px;
+                box-shadow: 0px 0px 1px rgba(0,0,0,0.2), 1px 1px 7px rgba(0,0,0,0.3);
+            }
+            #submit {
+                box-sizing: border-box;
+                border: 1px solid transparent;
+                border-color: #0275d8;
+                border-radius: 5px;
+                text-align: center;
+                margin: auto;
+                background-color: #0275d8;
+                height: 3.4rem;
+                min-width: 3.4rem;
+                width: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                transition: all 0.4s linear;
+            }
+            #submit.sending-progress {
+                padding: 0;
+                width: 3.4rem;
+                color: transparent;
+                border-radius: 50%;
+                background-color: #ffffff;
+                opacity: 1;
+                animation: pulse 1.5s infinite linear;
+            }
+            #submit.sending-success {
+                color: #fff;
+                background-color: rgb(76,217,100);
+                border-color: rgb(56,197,80);
+                opacity: 1;
+            }
 
-@keyframes pulse {
-    0%   {border-width: 1px;}
-    20%  {border-width: 6px;}
-    25%  {border-width: 6px;}
-    40%  {border-width: 2px;}
-    60%  {border-width: 7px;}
-    92%  {border-width: 7px;}
-    100%  {border-width: 1px;}
-}
+            @keyframes pulse {
+                0%   {border-width: 1px;}
+                20%  {border-width: 6px;}
+                25%  {border-width: 6px;}
+                40%  {border-width: 2px;}
+                60%  {border-width: 7px;}
+                92%  {border-width: 7px;}
+                100%  {border-width: 1px;}
+            }
         </style>
 
         <script>
@@ -241,7 +253,8 @@
                 });
                 
                 
-                
+                const captchaList = Array("6 * 3", "12 + 6", "15 + 3", "9 + 9", "9 * 2");
+                $("#captcha").text(captchaList[Math.floor(Math.random()*captchaList.length)]);
                 
                 // Sending contact form using ajax technology
                 // Get the form and messages container
@@ -281,11 +294,11 @@
                             // Disable form fields.
                             $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
                             
-                            $("div#reCAPTCHA *").hide(400, function(){
+                            //$("div#reCAPTCHA *").hide(400, function(){
                                 // when hide ends
-                                $("div#reCAPTCHA").remove();
+                                //$("div#reCAPTCHA").remove();
                                 $(form).find("button[type=submit]").addClass("sending-success").removeClass("sending-progress").attr("disabled", true).text(response);
-                            });
+                            //});
                             
                             
                         })
@@ -303,18 +316,10 @@
                         });
                     }
                     
-                    
-                    
                 });
-                
                 
             });
             
-            
-        
         </script>
-
-        
-        
     </body>
 </html>
