@@ -109,13 +109,7 @@
             // when address bar hides on mobile, it will not resize
             // recalculate only on orientationchange
             //
-            function calcVH() {
-                var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-                document.getElementById("who-is-jesus").setAttribute("style", "height:" + vH + "px;");
-                document.getElementById("the-name").setAttribute("style", "height:" + vH + "px;");
-            }
-            calcVH();
-            window.addEventListener('onorientationchange', calcVH, true);
+            
         </script>
         
         
@@ -124,21 +118,28 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <!--<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>-->
+        <script src="static/scripts.js"></script>
         
         
         
         
         <script>
-            
+            function calcVH() {
+                var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+                document.getElementById("who-is-jesus").setAttribute("style", "height:" + vH + "px;");
+                document.getElementById("the-name").setAttribute("style", "height:" + vH + "px;");
+            }
+            calcVH();
+            window.addEventListener('orientationchange', calcVH, true);
+
             var screen = parseInt($(window).height());
             var parallaxElements;
             
-            function draw() {
-                requestAnimationFrame(draw);
-                // Drawing code goes here
-                scrollEvent();
-            }
+            //function draw() {
+            //    requestAnimationFrame(draw);
+            //    // Drawing code goes here
+            //    scrollEvent();
+            //}
             draw();
             function scrollEvent(){
                 var scroll = $(window).scrollTop();
@@ -163,33 +164,7 @@
                 parallaxElements = $("div[data-parallax='true']")
             }
             
-            /*
-            function validation(){
-                var errors = false;
-                if (!$("#g-recaptcha-response").val()) {
-                    errors = true;
-                }
-                $("#ajax-contact > .form-group").each(function(){
-                    var warn = false;
-                    $(this).find("input, textarea").each(function(){
-                        if ($(this).val().length <= 1){
-                            errors = true;
-                            warn = true;
-                            $(this).addClass("form-control-warning");
-                        } else {
-                            warn = false;
-                            $(this).removeClass("form-control-warning");
-                        }
-                    });
-                    if (warn == true) {
-                        $(this).addClass("has-warning");
-                    } else {
-                        $(this).removeClass("has-warning");
-                    }
-                });
-                return !errors;
-            }
-            */
+            
             
             $(document).ready(function(){
                 
@@ -207,71 +182,9 @@
                 }).scroll();
                 */
                 
-                $("div.totop").on("click", function(){
-                    $("html, body").animate({ scrollTop: 0 }, "slow");
-                    return false;
-                });
-                /*
-                // Sending contact form using ajax technology
-                // Get the form and messages container
-                //
-                var form = $("#ajax-contact"),
-                    formMessages = $("#form-messages");
+                enableClickToTop();
+
                 
-                // Set up an event listener for the contact form.
-                $(form).submit(function(event) {
-                    // Stop the browser from submitting the form.
-                    event.preventDefault();
-                    
-                    if (validation()){
-                        // Serialize the form data.
-                        var formData = $(form).serialize();
-                        
-                        $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
-                        $(formMessages).addClass("alert alert-info");
-                        $(formMessages).text("Sending...");
-                        $(form).find("button[type=submit]").attr("disabled", true);
-                        
-                        // Submit the form using AJAX.
-                        $.ajax({
-                            type: "POST",
-                            url: $(form).attr("action"),
-                            data: formData
-                        })
-                        .done(function(response) {
-                            // Make sure that the formMessages div has the 'success' class.
-                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
-                            $(formMessages).addClass("alert alert-success");
-
-                            // Set the message text.
-                            $(formMessages).text(response);
-
-                            // Clear the form.
-                            //$("#InputName").val("");
-                            //$("#InputContact").val("");
-                            //$("#TextareaMessage").val("");
-                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
-                            $(form).find("button[type=submit]").attr("disabled", true);
-                        })
-                        .fail(function(data) {
-                            // Make sure that the formMessages div has the 'error' class.
-                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
-                            $(formMessages).addClass("alert alert-danger");
-                            $(form).find("button[type=submit]").attr("disabled", false);
-
-                            // Set the message text.
-                            if (data.responseText !== '') {
-                                $(formMessages).text(data.responseText);
-                            } else {
-                                $(formMessages).text('Oops! An error occured and your message could not be sent.');
-                            }
-                        });
-                    }
-                    
-                    
-                    
-                });
-                */
             });
             
         </script>

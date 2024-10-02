@@ -1,20 +1,28 @@
-function scrollEvent() {
+function scrollEvent(includeTopPos=false) {
     const scroll = $(window).scrollTop();
     
+    if (typeof(window.parallaxElements) == 'undefined') {
+        window.parallaxElements = $("div[data-parallax='true']");
+    }
+
     if ($(window).width()) {
-        $("div[data-parallax='true']").each(function() {
-        //$.each(parallaxElements,function(){
+        //$("div[data-parallax='true']").each(function() {
+        $.each(window.parallaxElements,function(){
             //console.log( $(this).data("parallax") );
             const bottomPos = parseInt($(this).offset().top - scroll + $(this).outerHeight());
             window.screen = parseInt($(this).outerHeight());
-            //var toppos = parseInt( $(this).offset().top - scroll );
-            //if ( toppos <= screen + 20) {
-                if (bottomPos > -20) {
-                    distance = (window.screen - bottomPos) / $(this).data("speed");
-                    //console.log( $(this).attr("id") );
-                    $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
-                }
-            //}
+            const toppos = parseInt($(this).offset().top - scroll);
+            if (includeTopPos == true && toppos > screen + 20) {
+                return;
+            }
+
+
+            if (bottomPos > -20) {
+                distance = (window.screen - bottomPos) / $(this).data("speed");
+                //console.log( $(this).attr("id") );
+                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
+            }
+            
         });
     }
 }
