@@ -28,7 +28,7 @@
     if (empty($name) OR empty($message) OR empty($name) OR empty($captcha) OR empty($n1) OR empty($n2) OR empty($cal)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+        echo "Oops! There was a problem with your submission. Please complete the form and try again. $n1  $cal  $n2 = $captcha";
         die();
     }
 
@@ -47,7 +47,7 @@
     if ($captcha === false) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please complete the form and try again. $n1  $cal  $n2 = ";
+        echo "Oops! There was a problem with your submission. Please complete the form and try again. $n1  $cal  $n2 ";
         die();
     }
 
