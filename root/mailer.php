@@ -4,7 +4,7 @@
     if ($_SERVER["REQUEST_METHOD"] !== "POST") {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please try again later! POST";
+        echo "Oops! There was a problem with your submission. Please try again later!";
         die();
     }
 
@@ -12,7 +12,7 @@
     if (!isset($_POST['fname']) || strlen($_POST['fname'] > 0)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please try again later! fname";
+        echo "Oops! There was a problem with your submission. Please try again later!";
         die();
     }
 
@@ -28,7 +28,7 @@
     if (empty($name) OR empty($message) OR empty($name) OR empty($captcha) OR empty($n1) OR empty($n2) OR empty($cal)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please complete the form and try again. $n1  $cal  $n2 = $captcha";
+        echo "Oops! There was a problem with your submission. Please complete the form and try again.";
         die();
     }
 
@@ -47,7 +47,7 @@
     if ($captcha === false) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please complete the form and try again. $n1  $cal  $n2 ";
+        echo "Oops! There was a problem with your submission. Please complete the form and try again.";
         die();
     }
 

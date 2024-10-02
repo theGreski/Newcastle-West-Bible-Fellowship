@@ -304,7 +304,7 @@
                             //$(formMessages).text(response);
 
                             // Disable form fields.
-                            $("#InputName, #InputContact, #TextareaMessage").attr("readonly", true);
+                            $("input, textarea").attr("readonly", true);
                             
                             //$("div#reCAPTCHA *").hide(400, function(){
                                 // when hide ends
