@@ -21,7 +21,7 @@
     $message	= trim(filter_input(INPUT_POST, "TextareaMessage", FILTER_SANITIZE_STRING));
     $captcha	= trim(filter_input(INPUT_POST, "math", FILTER_SANITIZE_STRING));
     $n1	        = intval(trim(filter_input(INPUT_POST, "n1", FILTER_SANITIZE_STRING)));
-    $n1	        = intval(trim(filter_input(INPUT_POST, "n2", FILTER_SANITIZE_STRING)));
+    $n2	        = intval(trim(filter_input(INPUT_POST, "n2", FILTER_SANITIZE_STRING)));
     $cal	    = trim(filter_input(INPUT_POST, "cal", FILTER_SANITIZE_STRING));
     
     // Check that data was sent to the mailer.
