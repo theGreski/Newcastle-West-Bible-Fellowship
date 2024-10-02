@@ -176,10 +176,6 @@
 
         <script>
             
-            
-            
-            
-            
             function validation(){
                 var errors = false;
                 $("#ajax-contact > .form-group").each(function(){
@@ -215,7 +211,6 @@
                 $("#captcha").text(n1 + " " + cal + " " + n2);
             }
             
-            
             $(document).ready(function(){
                 
                 draw();
@@ -225,7 +220,7 @@
                 // when address bar hides on mobile, it will not resize
                 // recalculate only on orientationchange
                 //
-                window.addEventListener('orientationchange', () => {calcVH("whatitslike")}, true);
+                window.addEventListener('orientationchange', () => {calcVH("contact-us")}, true);
 
                 calcVH("contact-us");
                 
