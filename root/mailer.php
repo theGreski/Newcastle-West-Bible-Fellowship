@@ -32,7 +32,7 @@
         die();
     }
 
-    switch($cal){
+    switch($cal) {
         case "+":
             $captcha = ($n1 + $n2 == $captcha);
             break;
@@ -41,6 +41,8 @@
             break;
         default:
             $captcha = false;
+            break;
+    }
     
     if ($captcha === false) {
         // Set a 400 (bad request) response code and exit.
