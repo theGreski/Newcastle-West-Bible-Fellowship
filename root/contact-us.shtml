@@ -221,13 +221,13 @@
             
             function validation(){
                 var errors = false;
-                if (!$("#g-recaptcha-response").val()) {
-                    errors = true;
-                }
+                //if (!$("#g-recaptcha-response").val()) {
+                //    errors = true;
+                //}
                 $("#ajax-contact > .form-group").each(function(){
                     var warn = false;
                     $(this).find("input, textarea").each(function(){
-                        if ($(this).val().length <= 1){
+                        if ($(this).val().length < 1){
                             errors = true;
                             warn = true;
                             $(this).addClass("form-control-warning");

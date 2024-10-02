@@ -19,17 +19,30 @@
     $name 		= trim(filter_input(INPUT_POST, "InputName", FILTER_SANITIZE_STRING));
     $contact	= trim(filter_input(INPUT_POST, "InputContact", FILTER_SANITIZE_STRING));
     $message	= trim(filter_input(INPUT_POST, "TextareaMessage", FILTER_SANITIZE_STRING));
-    $captcha	= trim(filter_input(INPUT_POST, "InputCaptcha", FILTER_SANITIZE_STRING));
+    $captcha	= trim(filter_input(INPUT_POST, "math", FILTER_SANITIZE_STRING));
+    $n1	        = intval(trim(filter_input(INPUT_POST, "n1", FILTER_SANITIZE_STRING)));
+    $n1	        = intval(trim(filter_input(INPUT_POST, "n2", FILTER_SANITIZE_STRING)));
+    $cal	    = trim(filter_input(INPUT_POST, "cal", FILTER_SANITIZE_STRING));
     
     // Check that data was sent to the mailer.
-    if (empty($name) OR empty($message) OR empty($name) OR empty($captcha)) {
+    if (empty($name) OR empty($message) OR empty($name) OR empty($captcha) OR empty($n1) OR empty($n2) OR empty($cal)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
         echo "Oops! There was a problem with your submission. Please complete the form and try again.";
         die();
     }
 
-    if ($captcha !== "18") {
+    switch($cal){
+        case "+":
+            $captcha = ($n1 + $n2 == $captcha);
+            break;
+        case "*":
+            $captcha = ($n1 * $n2 == $captcha);
+            break;
+        default:
+            $captcha = false;
+    
+    if ($captcha === false) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
         echo "Oops! There was a problem with your submission. Please complete the form and try again.";
