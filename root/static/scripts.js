@@ -5,12 +5,12 @@ function scrollEvent() {
         $("div[data-parallax='true']").each(function() {
         //$.each(parallaxElements,function(){
             //console.log( $(this).data("parallax") );
-            var bottompos = parseInt($(this).offset().top - scroll + $(this).outerHeight());
+            const bottomPos = parseInt($(this).offset().top - scroll + $(this).outerHeight());
             window.screen = parseInt($(this).outerHeight());
-            var toppos = parseInt( $(this).offset().top - scroll );
+            //var toppos = parseInt( $(this).offset().top - scroll );
             //if ( toppos <= screen + 20) {
-                if (bottompos > -20) {
-                    distance = (window.screen - bottompos) / $(this).data("speed");
+                if (bottomPos > -20) {
+                    distance = (window.screen - bottomPos) / $(this).data("speed");
                     //console.log( $(this).attr("id") );
                     $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
                 }
@@ -26,10 +26,10 @@ function draw() {
 }
 
 // After DOM load check height of the selector with height:100vh
-            // then set it to that selector
-            // when address bar hides on mobile, it will not resize
-            // recalculate only on orientationchange
-            //
+// then set it to that selector
+// when address bar hides on mobile, it will not resize
+// recalculate only on orientationchange
+//
 function calcVH(id) {
     const el = document.getElementById(id)
     const vH = Math.max(el.offsetHeight);

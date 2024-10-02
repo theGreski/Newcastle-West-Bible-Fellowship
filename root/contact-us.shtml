@@ -114,7 +114,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        
+        <script src="static/scripts.js"></script>
         <link rel="stylesheet" href="static/styles.css">
         
         <style>
@@ -176,46 +176,8 @@
 
         <script>
             
-            var screen;
-            
-            function draw() {
-                requestAnimationFrame(draw);
-                // Drawing code goes here
-                scrollEvent();
-            }
-            draw();
-            function scrollEvent(){
-                var scroll = $(window).scrollTop();
-                
-                if($(window).width())
-                    $("div[data-parallax='true']").each(function(){
-                    //$.each(parallaxElements,function(){
-                        //console.log( $(this).data("parallax") );
-                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
-                        screen = parseInt( $(this).outerHeight() );
-                        var toppos = parseInt( $(this).offset().top - scroll );
-                        //if ( toppos <= screen + 20) {
-                            if (bottompos > -20) {
-                                distance = (screen - bottompos) / $(this).data("speed");
-                                //console.log( $(this).attr("id") );
-                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
-                            }
-                        //}
-                    });
-            }
             
             
-            // After DOM load check height of the selector with height:100vh
-            // then set it to that selector
-            // when address bar hides on mobile, it will not resize
-            // recalculate only on orientationchange
-            //
-            function calcVH() {
-                var vH = Math.max(document.getElementById("contact-us").offsetHeight);
-                document.getElementById("contact-us").setAttribute("style", "height:" + vH + "px;");
-            }
-            
-            window.addEventListener('onorientationchange', calcVH, true);
             
             
             function validation(){
@@ -256,15 +218,20 @@
             
             $(document).ready(function(){
                 
-                calcVH();
+                draw();
+
+                // After DOM load check height of the selector with height:100vh
+                // then set it to that selector
+                // when address bar hides on mobile, it will not resize
+                // recalculate only on orientationchange
+                //
+                window.addEventListener('orientationchange', () => {calcVH("whatitslike")}, true);
+
+                calcVH("contact-us");
                 
-                $("div.totop").on("click", function(){
-                    $("html, body").animate({ scrollTop: 0 }, "slow");
-                    return false;
-                });
+                enableClickToTop();
                 
                 generateCaptcha();
-                
                 
                 // Sending contact form using ajax technology
                 // Get the form and messages container
