@@ -241,6 +241,18 @@
                 });
                 return !errors;
             }
+
+            function generateCaptcha() {
+                const numList = Array("2", "3", "4", "5");
+                const calList = Array("+", "*");
+                const n1 = numList[Math.floor(Math.random()*numList.length)];
+                const n2 = numList[Math.floor(Math.random()*numList.length)];
+                const cal = calList[Math.floor(Math.random()*calList.length)];
+                $("#n1").val(n1);
+                $("#n2").val(n2);
+                $("#cal").val(cal);
+                $("#captcha").text(n1 + " " + cal + " " + n2);
+            }
             
             
             $(document).ready(function(){
@@ -252,16 +264,8 @@
                     return false;
                 });
                 
+                generateCaptcha();
                 
-                const numList = Array("2", "3", "4", "5");
-                const calList = Array("+", "*");
-                const n1 = numList[Math.floor(Math.random()*numList.length)];
-                const n2 = numList[Math.floor(Math.random()*numList.length)];
-                const cal = calList[Math.floor(Math.random()*calList.length)];
-                $("#n1").val(n1);
-                $("#n2").val(n2);
-                $("#cal").val(cal);
-                $("#captcha").text(n1 + " " + cal + " " + n2);
                 
                 // Sending contact form using ajax technology
                 // Get the form and messages container

@@ -47,7 +47,7 @@
     if ($captcha === false) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
-        echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+        echo "Oops! There was a problem with your submission. Please complete the form and try again. $n1  $cal  $n2 = ";
         die();
     }
 
