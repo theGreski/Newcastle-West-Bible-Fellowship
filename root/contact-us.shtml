@@ -88,7 +88,7 @@
                         <textarea class="form-control col" id="TextareaMessage" name="TextareaMessage" rows="6" required></textarea>
                     </div>
                 </div>
-                <div class="row form-group"></div>
+                <div class="row form-group">
                     <label for="InputCaptcha" class="col-lg-3 col-form-label text-lg-right">Answer the question. <span id="captcha"></span> = <span class="text-danger">*</span></label>
                     <div class="col">
                         <input type="text" class="form-control" id="InputCaptcha" name="InputCaptcha" required>
