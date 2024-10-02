@@ -103,7 +103,7 @@
             
             $(document).ready(function(){
                 
-                calcVH();
+                calcVH("whatitslike");
                 
                 enableClickToTop();
                 
