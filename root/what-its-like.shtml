@@ -85,21 +85,14 @@
         
         <script>
             
-            
-            
-            
             draw();
-            
-            
-            
-            
             
             // After DOM load check height of the selector with height:100vh
             // then set it to that selector
             // when address bar hides on mobile, it will not resize
             // recalculate only on orientationchange
             //
-            window.addEventListener('onorientationchange', calcVH, true);
+            window.addEventListener('onorientationchange', calcVH("whatitslike"), true);
             
             $(document).ready(function(){
                 
