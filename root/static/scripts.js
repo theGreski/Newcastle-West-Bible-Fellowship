@@ -16,7 +16,7 @@ function scrollEvent(includeTopPos=false) {
                 window.screen = parseInt($(this).outerHeight());
             }
             const topPos = parseInt($(this).offset().top - scroll);
-            console.log("Element " + $(this).attr("id") + " topPos=" + topPos);
+            //console.log("Element " + $(this).attr("id") + " topPos=" + topPos);
             if (includeTopPos == true && topPos > window.screen + 20) {
                 return;
             }
@@ -24,7 +24,7 @@ function scrollEvent(includeTopPos=false) {
 
             if (bottomPos > -20) {
                 distance = (window.screen - bottomPos) / $(this).data("speed");
-                console.log("move: " + $(this).attr("id") );
+                //console.log("move: " + $(this).attr("id") );
                 $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
             }
             
