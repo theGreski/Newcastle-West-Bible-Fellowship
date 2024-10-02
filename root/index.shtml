@@ -232,25 +232,22 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        
-        
-        
-        
+        <script src="static/scripts.js"></script>
         
         <script>
             
-            var screen = parseInt($(window).height());
-            var parallaxElements;
-            var counter = 0;
+            //var screen = parseInt($(window).height());
+            //var parallaxElements;
+            //var counter = 0;
             
             
-            function draw() {
-                requestAnimationFrame(draw);
-                // Drawing code goes here
-                scrollEvent();
-            }
-            draw();
-            function scrollEvent(){
+            //function draw() {
+            //    requestAnimationFrame(draw);
+            //    // Drawing code goes here
+            //    scrollEvent();
+            //}
+            //draw();
+            function xxxxxxxfindParallax(){
                 //counter++;
                 //if (counter > 100) {
                 //    return;
@@ -276,7 +273,7 @@
                 return;
             }
             
-            function findParallax(){
+            function xxxxxxxfindParallax(){
                 parallaxElements = $("div[data-parallax='true']")
             }
             
@@ -287,7 +284,7 @@
             // when address bar hides on mobile, it will not resize
             // recalculate only on orientationchange
             //
-            function calcVH() {
+            function xxxxxxcalcVH() {
                 // full height elements
                 var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
                 document.getElementById("welcome").setAttribute("style", "height:" + vH + "px;");
@@ -301,40 +298,29 @@
                 document.getElementById("about").setAttribute("style", "height:" + vH + "px;");
             }
             
-            window.addEventListener('onorientationchange', calcVH, true);
+            //window.addEventListener('onorientationchange', calcVH, true);
             
-            /*
-            function validation(){
-                var errors = false;
-                if (!$("#g-recaptcha-response").val()) {
-                    errors = true;
-                }
-                $("#ajax-contact > .form-group").each(function(){
-                    var warn = false;
-                    $(this).find("input, textarea").each(function(){
-                        if ($(this).val().length <= 1){
-                            errors = true;
-                            warn = true;
-                            $(this).addClass("form-control-warning");
-                        } else {
-                            warn = false;
-                            $(this).removeClass("form-control-warning");
-                        }
-                    });
-                    if (warn == true) {
-                        $(this).addClass("has-warning");
-                    } else {
-                        $(this).removeClass("has-warning");
-                    }
-                });
-                return !errors;
-            }
-            */
+            
             $(document).ready(function(){
                 
-                findParallax();
+                draw(true);
+
+                //findParallax();
                 
-                calcVH();
+                // After DOM load check height of the selector with height:100vh
+                // then set it to that selector
+                // when address bar hides on mobile, it will not resize
+                // recalculate only on orientationchange
+                //
+                window.addEventListener('orientationchange', () => {
+                    calcVH("welcome", true);
+                    calcVH("location", true);
+                    calcVH("learn-about-jesus", true);
+                }, true);
+                
+                calcVH("welcome", true);
+                calcVH("location", true);
+                calcVH("learn-about-jesus", true);
                 
                 /*
                 $(window).resize(function() {
@@ -348,10 +334,7 @@
                 }).scroll();
                 */
                 
-                $("div.totop").on("click", function(){
-                    $("html, body").animate({ scrollTop: 0 }, "slow");
-                    return false;
-                });
+                enableClickToTop();
                 
 				
 				

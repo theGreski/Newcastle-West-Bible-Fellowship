@@ -16,7 +16,7 @@ function scrollEvent(includeTopPos=false) {
                 window.screen = parseInt($(this).outerHeight());
             }
             const topPos = parseInt($(this).offset().top - scroll);
-            //console.log("Element " + $(this).attr("id") + " topPos=" + topPos);
+            
             if (includeTopPos == true && topPos > window.screen + 20) {
                 return;
             }

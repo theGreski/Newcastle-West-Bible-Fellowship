@@ -101,75 +101,13 @@
         
         <!-- _contact.html -->
         
-        
-        
-        <script>
-            // After DOM load check height of the selector with height:100vh
-            // then set it to that selector
-            // when address bar hides on mobile, it will not resize
-            // recalculate only on orientationchange
-            //
-            
-        </script>
-        
-        
-        
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <script src="static/scripts.js"></script>
         
-        
-        
-        
         <script>
-            //function calcVH() {
-            //    var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-            //    document.getElementById("who-is-jesus").setAttribute("style", "height:" + vH + "px;");
-            //    document.getElementById("the-name").setAttribute("style", "height:" + vH + "px;");
-            //}
-            //calcVH("who-is-jesus", true);
-            //calcVH("the-name", true);
-            //window.addEventListener('orientationchange', calcVH, true);
-            //window.addEventListener('orientationchange', () => {
-            //    calcVH("who-is-jesus", true);
-            //    calcVH("the-name", true);
-            //}, true);
-
-            //var screen = parseInt($(window).height());
-            //var parallaxElements;
-            
-            //function draw() {
-            //    requestAnimationFrame(draw);
-            //    // Drawing code goes here
-            //    scrollEvent();
-            //}
-            
-            function toDeletescrollEvent(){
-                var scroll = $(window).scrollTop();
-                
-                if($(window).width())
-                    //$("div[data-parallax='true']").each(function(){
-                    $.each(parallaxElements,function(){
-                        //console.log( $(this).data("parallax") );
-                        var bottompos = parseInt( $(this).offset().top - scroll + $(this).outerHeight() );
-                        var toppos = parseInt( $(this).offset().top - scroll );
-                        if ( toppos <= screen + 20) {
-                            if (bottompos > -20) {
-                                distance = (screen - bottompos) / $(this).data("speed");
-                                //console.log( $(this).attr("id") );
-                                $(this).find("div.background").css({"-webkit-transform": "translateY(" + distance + "px)", "transform": "translateY(" + distance + "px)" });
-                            }
-                        }
-                    });
-            }
-            
-            function xxxxxxxfindParallax(){
-                parallaxElements = $("div[data-parallax='true']")
-            }
-            
-            
             
             $(document).ready(function(){
                 
@@ -187,10 +125,6 @@
                 
                 calcVH("who-is-jesus", true);
                 calcVH("the-name", true);
-                
-                
-
-                //findParallax();
                 
                 /*
                 $(window).resize(function() {
