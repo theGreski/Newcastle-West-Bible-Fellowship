@@ -33,7 +33,7 @@ function scrollEvent(includeTopPos=false) {
 }
 
 function draw(includeTopPos=false) {
-    requestAnimationFrame(draw);
+    requestAnimationFrame(() => {draw(includeTopPos);});
     // Drawing code goes here
     scrollEvent(includeTopPos);
 }
