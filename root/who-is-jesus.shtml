@@ -129,24 +129,24 @@
             //    document.getElementById("who-is-jesus").setAttribute("style", "height:" + vH + "px;");
             //    document.getElementById("the-name").setAttribute("style", "height:" + vH + "px;");
             //}
-            calcVH("who-is-jesus", true);
-            calcVH("the-name", true);
+            //calcVH("who-is-jesus", true);
+            //calcVH("the-name", true);
             //window.addEventListener('orientationchange', calcVH, true);
-            window.addEventListener('orientationchange', () => {
-                calcVH("who-is-jesus", true);
-                calcVH("the-name", true);
-            }, true);
+            //window.addEventListener('orientationchange', () => {
+            //    calcVH("who-is-jesus", true);
+            //    calcVH("the-name", true);
+            //}, true);
 
-            var screen = parseInt($(window).height());
-            var parallaxElements;
+            //var screen = parseInt($(window).height());
+            //var parallaxElements;
             
             //function draw() {
             //    requestAnimationFrame(draw);
             //    // Drawing code goes here
             //    scrollEvent();
             //}
-            draw();
-            function scrollEvent(){
+            
+            function toDeletescrollEvent(){
                 var scroll = $(window).scrollTop();
                 
                 if($(window).width())
@@ -165,7 +165,7 @@
                     });
             }
             
-            function findParallax(){
+            function xxxxxxxfindParallax(){
                 parallaxElements = $("div[data-parallax='true']")
             }
             
@@ -173,7 +173,24 @@
             
             $(document).ready(function(){
                 
-                findParallax();
+                draw();
+
+                // After DOM load check height of the selector with height:100vh
+                // then set it to that selector
+                // when address bar hides on mobile, it will not resize
+                // recalculate only on orientationchange
+                //
+                window.addEventListener('orientationchange', () => {
+                    calcVH("who-is-jesus", true);
+                    calcVH("the-name", true);
+                }, true);
+                
+                calcVH("who-is-jesus", true);
+                calcVH("the-name", true);
+                
+                
+
+                //findParallax();
                 
                 /*
                 $(window).resize(function() {

@@ -10,9 +10,13 @@ function scrollEvent(includeTopPos=false) {
         $.each(window.parallaxElements, function() {
             //console.log( $(this).data("parallax") );
             const bottomPos = parseInt($(this).offset().top - scroll + $(this).outerHeight());
-            window.screen = parseInt($(this).outerHeight());
-            const toppos = parseInt($(this).offset().top - scroll);
-            if (includeTopPos == true && toppos > window.screen + 20) {
+            if (includeTopPos == true){
+                window.screen = parseInt($(window).height());
+            } else {
+                window.screen = parseInt($(this).outerHeight());
+            }
+            const topPos = parseInt($(this).offset().top - scroll);
+            if (includeTopPos == true && topPos > window.screen + 20) {
                 return;
             }
 
