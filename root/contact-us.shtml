@@ -89,9 +89,12 @@
                     </div>
                 </div>
                 <div class="row form-group">
-                    <label for="InputCaptcha" class="col-lg-3 col-form-label text-lg-right">Answer the question. <span class="text-danger">*</span> <span id="captcha"></span> =</label>
+                    <label for="math" class="col-lg-3 col-form-label text-lg-right">Answer the question. <span class="text-danger">*</span> <span id="captcha"></span> =</label>
                     <div class="col">
-                        <input type="text" class="form-control" id="InputCaptcha" name="InputCaptcha" required>
+                        <input type="hidden" class="form-control" id="n1" name="n1" required>
+                        <input type="hidden" class="form-control" id="n2" name="n2" required>
+                        <input type="hidden" class="form-control" id="cal" name="cal" required>
+                        <input type="text" class="form-control" id="math" name="math" required>
                     </div>
                 </div>
                 
@@ -253,8 +256,15 @@
                 });
                 
                 
-                const captchaList = Array("6 * 3", "12 + 6", "15 + 3", "9 + 9", "9 * 2");
-                $("#captcha").text(captchaList[Math.floor(Math.random()*captchaList.length)]);
+                const numList = Array("2", "3", "4", "5");
+                const calList = Array("+", "*");
+                const n1 = numList[Math.floor(Math.random()*numList.length)];
+                const n2 = numList[Math.floor(Math.random()*numList.length)];
+                const cal = calList[Math.floor(Math.random()*calList.length)];
+                $("#n1").text(n1);
+                $("#n2").text(n2);
+                $("#cal").text(cal);
+                $("#captcha").text(n1 + " " + cal + " " + n2);
                 
                 // Sending contact form using ajax technology
                 // Get the form and messages container
