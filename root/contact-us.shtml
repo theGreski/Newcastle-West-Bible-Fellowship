@@ -298,20 +298,14 @@
                         })
                         .done(function(response) {
                             // Make sure that the formMessages div has the 'success' class.
-                            //$(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger").addClass("alert alert-success");
-                            $(formMessages).removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            $(formMessages).text("").removeClass("alert alert-success alert-info alert-warning alert-danger");
+                            
                             // Set the message text.
                             //$(formMessages).text(response);
 
                             // Disable form fields.
                             $("input, textarea").attr("readonly", true);
-                            
-                            //$("div#reCAPTCHA *").hide(400, function(){
-                                // when hide ends
-                                //$("div#reCAPTCHA").remove();
-                                $(form).find("button[type=submit]").addClass("sending-success").removeClass("sending-progress").attr("disabled", true).text(response);
-                            //});
-                            
+                            $(form).find("button[type=submit]").addClass("sending-success").removeClass("sending-progress").attr("disabled", true).text(response);
                             
                         })
                         .fail(function(data) {
