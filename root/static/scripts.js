@@ -32,10 +32,10 @@ function scrollEvent(includeTopPos=false) {
     }
 }
 
-function draw() {
+function draw(includeTopPos=false) {
     requestAnimationFrame(draw);
     // Drawing code goes here
-    scrollEvent();
+    scrollEvent(includeTopPos);
 }
 
 // After DOM load check height of the selector with height:100vh

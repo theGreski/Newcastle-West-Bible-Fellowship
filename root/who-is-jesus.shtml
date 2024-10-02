@@ -173,7 +173,7 @@
             
             $(document).ready(function(){
                 
-                draw();
+                draw(true);
 
                 // After DOM load check height of the selector with height:100vh
                 // then set it to that selector
