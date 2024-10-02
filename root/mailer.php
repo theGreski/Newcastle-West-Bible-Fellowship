@@ -66,7 +66,7 @@
 
     $content = "User: " . $name . "\r\n\r\nWrote:\r\n\r\n" . $message . "\r\n\r\nContact to: " . $contact;
 
-    if (mail($recipient, $subject, $email_content, $email_headers)) {
+    if (mail($to, $subject, $content, $headers)) {
         // Set a 200 (okay) response code.
         http_response_code(200);
         //echo "Thank you for contacting ncwbiblefellowship.com. You are very important to us, all information received will always remain confidential. We will contact you as soon as we review your message.";
