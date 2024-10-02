@@ -258,9 +258,9 @@
                 const n1 = numList[Math.floor(Math.random()*numList.length)];
                 const n2 = numList[Math.floor(Math.random()*numList.length)];
                 const cal = calList[Math.floor(Math.random()*calList.length)];
-                $("#n1").text(n1);
-                $("#n2").text(n2);
-                $("#cal").text(cal);
+                $("#n1").val(n1);
+                $("#n2").val(n2);
+                $("#cal").val(cal);
                 $("#captcha").text(n1 + " " + cal + " " + n2);
                 
                 // Sending contact form using ajax technology
