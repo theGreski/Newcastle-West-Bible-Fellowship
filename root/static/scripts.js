@@ -31,6 +31,7 @@ function draw() {
             // recalculate only on orientationchange
             //
 function calcVH(id) {
+    console.log("CalcVH");
     const el = document.getElementById(id)
     const vH = Math.max(el.offsetHeight);
     el.setAttribute("style", "height:" + vH + "px;");
